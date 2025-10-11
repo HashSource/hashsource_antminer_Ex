@@ -194,20 +194,105 @@ def extractGzipFiles(basePath: str):
 
 
 def extractDatafileImages(basePath: str):
+    """
+    Extract U-Boot FIT images (datafile files).
+    These are Flattened Image Tree (FIT) format files containing:
+    - Linux kernel
+    - Device tree blob (DTB)
+    - Ramdisk (usually gzip compressed)
+    """
     datafileImages = glob.glob(f"{basePath}/**/datafile", recursive=True)
     for image in datafileImages:
+        print(f"Processing FIT image: {image}")
         imageDir = os.path.dirname(image)
 
+        # Create extraction directory
+        extractDir = os.path.join(imageDir, "datafile_extracted")
         try:
+            os.makedirs(extractDir, exist_ok=True)
+        except Exception as e:
+            print(f"Failed to create directory {extractDir}: {e}")
+            continue
+
+        # Extract all components from FIT image
+        abs_image = os.path.abspath(os.path.normpath(image))
+        abs_extract_dir = os.path.abspath(os.path.normpath(extractDir))
+
+        try:
+            # Extract kernel (component 0)
             subprocess.run(
                 [
-                    "binwalk",
-                    "-eMV",
-                    os.path.abspath(os.path.normpath(image)),
+                    "dumpimage",
+                    "-T",
+                    "flat_dt",
+                    "-p",
+                    "0",
+                    "-o",
+                    os.path.join(abs_extract_dir, "kernel.bin"),
+                    abs_image,
                 ],
-                cwd=os.path.abspath(os.path.normpath(imageDir)),
+                cwd=imageDir,
+                check=False,
             )
-        except Exception:
+            print("  -> Extracted kernel.bin")
+
+            # Extract device tree (component 1)
+            subprocess.run(
+                [
+                    "dumpimage",
+                    "-T",
+                    "flat_dt",
+                    "-p",
+                    "1",
+                    "-o",
+                    os.path.join(abs_extract_dir, "devicetree.dtb"),
+                    abs_image,
+                ],
+                cwd=imageDir,
+                check=False,
+            )
+            print("  -> Extracted devicetree.dtb")
+
+            # Extract ramdisk (component 2)
+            ramdisk_path = os.path.join(abs_extract_dir, "ramdisk.cpio.gz")
+            subprocess.run(
+                [
+                    "dumpimage",
+                    "-T",
+                    "flat_dt",
+                    "-p",
+                    "2",
+                    "-o",
+                    ramdisk_path,
+                    abs_image,
+                ],
+                cwd=imageDir,
+                check=False,
+            )
+            print("  -> Extracted ramdisk.cpio.gz")
+
+            # Extract ramdisk filesystem
+            ramdisk_fs_dir = os.path.join(abs_extract_dir, "ramdisk_fs")
+            os.makedirs(ramdisk_fs_dir, exist_ok=True)
+
+            # Decompress and extract cpio archive
+            gunzip_proc = subprocess.Popen(
+                ["gunzip", "-c", ramdisk_path],
+                stdout=subprocess.PIPE,
+                cwd=ramdisk_fs_dir,
+            )
+            subprocess.run(
+                ["cpio", "-idmv"],
+                stdin=gunzip_proc.stdout,
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+                cwd=ramdisk_fs_dir,
+            )
+            gunzip_proc.wait()
+            print("  -> Extracted ramdisk filesystem to ramdisk_fs/")
+
+        except Exception as e:
+            print(f"Error extracting {image}: {e}")
             continue
 
 
@@ -351,8 +436,8 @@ if __name__ == "__main__":
     # extractBmuUpdateFiles(basePath)
     # removeUImageHeaders(basePath)
     # extractGzipFiles(basePath)
-    extractLinuxImages(basePath)
-    # extractDatafileImages(basePath)
+    # extractLinuxImages(basePath)
+    extractDatafileImages(basePath)
     # extractBootBin(basePath)
     # removeCVITEKHeaders(basePath)
     # extractCVITEKGzipFiles(basePath)
