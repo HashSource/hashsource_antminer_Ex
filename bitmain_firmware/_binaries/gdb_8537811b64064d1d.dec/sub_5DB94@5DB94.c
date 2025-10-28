@@ -1,0 +1,7 @@
+void __fastcall __noreturn sub_5DB94(int a1, int a2, int a3, int a4, int a5, int a6, int a7, int a8, int a9, int a10)
+{
+  int v10; // r0
+
+  v10 = sub_257374(a10, 1);
+  sub_339024(v10);
+}

@@ -1,0 +1,37 @@
+int __fastcall uart_get_config(int a1, int a2, _DWORD *a3, int a4)
+{
+  _BOOL4 v4; // r3
+  int v5; // r5
+  const char *v8; // r2
+  int v9; // r1
+  char s[2048]; // [sp+10h] [bp-1800h] BYREF
+  char v12[4096]; // [sp+810h] [bp-1000h] BYREF
+
+  v4 = a4 != 0;
+  if ( a3 )
+    v5 = v4;
+  else
+    v5 = 1;
+  if ( v5 )
+    return -3;
+  pthread_mutex_lock(stru_1B32E8);
+  if ( !a2 )
+  {
+    *(_DWORD *)v12 = 0;
+    fpga_read(60, v12);
+    *a3 = *(_DWORD *)v12;
+    MEMORY[0] = 0;
+    __und(0);
+  }
+  LOWORD(v8) = 21340;
+  HIWORD(v8) = (unsigned int)"_config return 0x%08x" >> 16;
+  snprintf(s, 0x800u, v8, a2);
+  V_LOCK();
+  logfmt_raw(v12, 0x1000u, 0, s);
+  V_UNLOCK();
+  LOWORD(v9) = 20892;
+  HIWORD(v9) = (unsigned int)" %d is not supported!!!" >> 16;
+  zlog(g_zc, v9, 175, "uart_get_config", 15, 548, 80, v12);
+  pthread_mutex_unlock(stru_1B32E8);
+  return -5;
+}

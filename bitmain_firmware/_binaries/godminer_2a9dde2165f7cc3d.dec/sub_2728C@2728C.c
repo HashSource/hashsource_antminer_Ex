@@ -1,0 +1,223 @@
+int __fastcall sub_2728C(int a1, const char **a2)
+{
+  float v2; // s0
+  void *v5; // r0
+  bool v6; // zf
+  void *v7; // r0
+  const char *v8; // r2
+  int v9; // r1
+  int appended; // r0
+  __int64 v11; // kr00_8
+  double v12; // d7
+  double v13; // d6
+  __int64 v14; // r0
+  int v15; // r0
+  __int64 v16; // r0
+  int v17; // r0
+  __int64 v18; // r0
+  int v19; // r0
+  int v20; // r3
+  bool v21; // cc
+  unsigned int v22; // lr
+  int v23; // r0
+  int v24; // r5
+  int v25; // r4
+  int v26; // r0
+  double *v27; // r9
+  int v28; // r0
+  int v29; // r0
+  int v30; // r2
+  int *v31; // r3
+  int v32; // r1
+  int v33; // r0
+  int v34; // r0
+  int v35; // r0
+  int v36; // r0
+  int v37; // r0
+  int v38; // r0
+  int v39; // r0
+  int v40; // r0
+  int v41; // r0
+  int v42; // r0
+  int v43; // r0
+  bool v44; // cc
+  int v46; // r0
+  int v47; // [sp+1Ch] [bp-1150h]
+  int v49; // [sp+34h] [bp-1138h] BYREF
+  int v50; // [sp+38h] [bp-1134h]
+  int v51; // [sp+3Ch] [bp-1130h]
+  char v52[4]; // [sp+40h] [bp-112Ch] BYREF
+  int v53; // [sp+44h] [bp-1128h]
+  int v54; // [sp+48h] [bp-1124h]
+  int v55; // [sp+4Ch] [bp-1120h]
+  char v56[4]; // [sp+50h] [bp-111Ch] BYREF
+  int v57; // [sp+54h] [bp-1118h]
+  int v58; // [sp+58h] [bp-1114h]
+  int v59; // [sp+5Ch] [bp-1110h]
+  int v60; // [sp+60h] [bp-110Ch]
+  int v61; // [sp+64h] [bp-1108h]
+  char s[128]; // [sp+68h] [bp-1104h] BYREF
+  char v63[128]; // [sp+E8h] [bp-1084h] BYREF
+  _BYTE v64[4100]; // [sp+168h] [bp-1004h] BYREF
+
+  memset(s, 0, sizeof(s));
+  v5 = memset(v63, 0, sizeof(v63));
+  v6 = a1 == 0;
+  if ( a1 )
+    v6 = a2 == 0;
+  v50 = 0;
+  v51 = 0;
+  v49 = 0;
+  *(_DWORD *)v52 = 0;
+  *(_DWORD *)v56 = 0;
+  v53 = 0;
+  v54 = 0;
+  v55 = 0;
+  v57 = 0;
+  v58 = 0;
+  v59 = 0;
+  v60 = 0;
+  v61 = 0;
+  if ( v6 )
+  {
+    V_LOCK(v5);
+    v46 = logfmt_raw((int)v64, 0x1000u);
+    V_UNLOCK(v46);
+    zlog(
+      g_zc,
+      "/workspace/jenkins/jenkins/workspace/Antminer_E9-Pro_release/build/rootfs/buildroot/tmp/release/build/godminer-ori"
+      "gin_godminer-new/api_new.c",
+      140,
+      "get_pools",
+      9,
+      612,
+      100,
+      v64);
+    return -2147483646;
+  }
+  else
+  {
+    sub_23CB8(a1, a2, (int)v52);
+    v7 = sub_23DD4(a1);
+    v47 = json_array(v7);
+    get_total_nonce_rate();
+    if ( total_pools > 0 )
+    {
+      v8 = "index";
+      v9 = -1851608123;
+      appended = -2004318071;
+      v11 = 0;
+      do
+      {
+        v24 = *(_DWORD *)(pools + 4 * v11);
+        if ( v24 )
+        {
+          v25 = json_object(appended, v9, v8, pools);
+          v26 = json_integer(v11, HIDWORD(v11));
+          v27 = (double *)(v24 + 1968);
+          json_object_set_new(v25, "index", v26);
+          memset(s, 0, sizeof(s));
+          snprintf(s, 0x80u, "%s", *(const char **)(v24 + 12));
+          v28 = json_string(s);
+          json_object_set_new(v25, "url", v28);
+          memset(v63, 0, sizeof(v63));
+          snprintf(v63, 0x80u, "%s", *(const char **)(v24 + 16));
+          v29 = json_string(v63);
+          json_object_set_new(v25, "user", v29);
+          v30 = *(unsigned __int8 *)(v24 + 1904);
+          v50 = 0;
+          v49 = 0;
+          v51 = 0;
+          if ( v30 )
+            LOWORD(v31) = -2788;
+          else
+            LOWORD(v31) = -3592;
+          HIWORD(v31) = 18;
+          v32 = v31[1];
+          v49 = *v31;
+          if ( v30 )
+            LOBYTE(v50) = v32;
+          else
+            LOWORD(v50) = v32;
+          v33 = json_string(&v49);
+          json_object_set_new(v25, "status", v33);
+          v34 = json_integer(*(_DWORD *)(v24 + 4), *(int *)(v24 + 4) >> 31);
+          json_object_set_new(v25, "priority", v34);
+          v35 = json_integer(*(_DWORD *)(v24 + 1632), 0);
+          json_object_set_new(v25, "getworks", v35);
+          v36 = json_integer(*(_DWORD *)(v24 + 1928), *(_DWORD *)(v24 + 1932));
+          json_object_set_new(v25, "accepted", v36);
+          v37 = json_integer(*(_DWORD *)(v24 + 1936), *(_DWORD *)(v24 + 1940));
+          json_object_set_new(v25, "rejected", v37);
+          v38 = json_integer(*(_DWORD *)(v24 + 1944), 0);
+          json_object_set_new(v25, "discarded", v38);
+          v39 = json_integer(*(_DWORD *)(v24 + 1640), 0);
+          json_object_set_new(v25, "stale", v39);
+          *(_DWORD *)v52 = 0;
+          v53 = 0;
+          v54 = 0;
+          v55 = 0;
+          snprintf(v52, 0x10u, "%s", (const char *)(v24 + 1976));
+          v40 = json_string(v52);
+          json_object_set_new(v25, "diff", v40);
+          v41 = json_integer(*(_DWORD *)(v24 + 1992), *(_DWORD *)(v24 + 1996));
+          v42 = json_object_set_new(v25, "diff1", v41);
+          v43 = json_real(v42);
+          LODWORD(v14) = json_object_set_new(v25, "diffa", v43);
+          v44 = (unsigned int)opt_algo > 0xA;
+          if ( opt_algo != 10 )
+            v44 = (unsigned int)(opt_algo - 6) > 1;
+          if ( v44 )
+          {
+            v14 = sub_12E970(*(_DWORD *)(v24 + 1968), *(_DWORD *)(v24 + 1972));
+          }
+          else
+          {
+            v12 = *v27;
+            v13 = (double)(int)((*(double *)(v24 + 1968) + *(double *)(v24 + 1960)) * (float)(1.0 - v2));
+            if ( *v27 <= v13 )
+              v14 = 0;
+            else
+              v12 = v12 - v13;
+            if ( *v27 > v13 )
+              v14 = (int)v12;
+          }
+          v15 = json_integer(v14, HIDWORD(v14));
+          json_object_set_new(v25, "diffr", v15);
+          v16 = sub_12E970(*(_DWORD *)(v24 + 1816), *(_DWORD *)(v24 + 1820));
+          v17 = json_integer(v16, HIDWORD(v16));
+          json_object_set_new(v25, "diffs", v17);
+          v18 = sub_12E970(*(_DWORD *)(v24 + 1624), *(_DWORD *)(v24 + 1628));
+          v19 = json_integer(v18, HIDWORD(v18));
+          json_object_set_new(v25, "lsdiff", v19);
+          v20 = *(_DWORD *)(v24 + 1616);
+          *(_DWORD *)v56 = 0;
+          v57 = 0;
+          v21 = v20 <= 0;
+          v58 = 0;
+          if ( v20 <= 0 )
+            LOWORD(v20) = 48;
+          v59 = 0;
+          v60 = 0;
+          v61 = 0;
+          if ( v21 )
+          {
+            *(_WORD *)v56 = v20;
+          }
+          else
+          {
+            v22 = time(0) - *(_DWORD *)(v24 + 1616);
+            snprintf(v56, 0x18u, "%d:%d:%d", v22 / 0xE10, v22 % 0xE10 / 0x3C, v22 % 0xE10 % 0x3C);
+          }
+          v23 = json_string(v56);
+          json_object_set_new(v25, "lstime", v23);
+          appended = json_array_append_new(v47, v25);
+        }
+        ++v11;
+      }
+      while ( total_pools > (int)v11 );
+    }
+    json_object_set_new(a1, "POOLS", v47);
+    return 0;
+  }
+}

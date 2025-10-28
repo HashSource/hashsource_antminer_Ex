@@ -1,0 +1,62 @@
+int __fastcall set_miner_6060info_status_fan_err(int a1, int a2)
+{
+  int v3; // r6
+  char *v4; // r8
+  int v6; // r10
+  const char *v7; // r2
+  int v8; // r3
+  int v9; // r1
+  int v10; // r3
+  int v11; // r1
+  char s[128]; // [sp+10h] [bp-1080h] BYREF
+  struct timeval v13[512]; // [sp+90h] [bp-1000h] BYREF
+
+  if ( a1 > 7 )
+  {
+    V_LOCK();
+    LOWORD(v10) = 29968;
+    HIWORD(v10) = (unsigned int)"tor/miner_6060info.c" >> 16;
+    logfmt_raw((char *)v13, 0x1000u, 0, v10);
+    V_UNLOCK();
+    LOWORD(v11) = 29792;
+    HIWORD(v11) = (unsigned int)"%s, %d bad json format" >> 16;
+    v3 = 0;
+    zlog(g_zc, v11, 172, "set_miner_6060info_status_fan_err", 33, 63, 40, v13);
+  }
+  else
+  {
+    v3 = a1;
+  }
+  v4 = (char *)&stru_195CC8 + 8 * v3 + 24;
+  pthread_mutex_lock(&miner_6060info_lock);
+  v4[24] = a2;
+  v13[0].tv_sec = 0;
+  v13[0].tv_usec = 0;
+  if ( a2 )
+  {
+    gettimeofday(v13, 0);
+    v6 = (unsigned __int8)v4[544];
+    a2 = (unsigned __int8)v4[24];
+    *((_DWORD *)v4 + 7) = v13[0].tv_sec;
+    if ( !v6 )
+    {
+      if ( a2 )
+      {
+        LOWORD(v7) = 29692;
+        HIWORD(v7) = (unsigned int)"" >> 16;
+        snprintf(s, 0x80u, v7, v3);
+        V_LOCK();
+        LOWORD(v8) = 30020;
+        HIWORD(v8) = (unsigned int)", fan_index >= FAN_MAX" >> 16;
+        logfmt_raw((char *)v13, 0x1000u, 0, v8, s);
+        V_UNLOCK();
+        LOWORD(v9) = 29792;
+        HIWORD(v9) = (unsigned int)"%s, %d bad json format" >> 16;
+        zlog(g_zc, v9, 172, "set_miner_6060info_status_fan_err", 33, 66, 100, v13);
+        LOBYTE(a2) = v4[24];
+      }
+    }
+  }
+  *((_BYTE *)&stru_195CC8 + 8 * v3 + 568) = a2;
+  return pthread_mutex_unlock(&miner_6060info_lock);
+}

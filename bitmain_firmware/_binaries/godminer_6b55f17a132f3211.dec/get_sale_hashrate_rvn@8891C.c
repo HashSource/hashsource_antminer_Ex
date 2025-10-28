@@ -1,0 +1,27 @@
+int __fastcall get_sale_hashrate_rvn(int a1, double *a2, _DWORD *a3)
+{
+  double v5; // d8
+  void (__fastcall *v7)(int, double *); // r5
+  const char *v9; // r4
+  double v10; // [sp+0h] [bp-Ch] BYREF
+
+  v5 = 0.0;
+  v7 = *(void (__fastcall **)(int, double *))(a1 + 132);
+  v10 = 0.0;
+  v7(a1, &v10);
+  if ( *(_BYTE *)(a1 + 260) != 82 || *(_BYTE *)(a1 + 261) != 86 || *(_BYTE *)(a1 + 262) != 78 || *(_BYTE *)(a1 + 263) )
+    return 25;
+  api_get_eeprom_chip_bin(*(_DWORD *)(a1 + 208));
+  v9 = (const char *)(api_get_eeprom_chip_ft(*(_DWORD *)(a1 + 208)) + 5);
+  if ( !strncmp(v9, "B1C1", 4u) )
+  {
+    v5 = 0.982900023;
+  }
+  else if ( !strncmp(v9, "B2C1", 4u) )
+  {
+    v5 = 0.970799983;
+  }
+  *a2 = v10 * v5;
+  *a3 = 50;
+  return 0;
+}

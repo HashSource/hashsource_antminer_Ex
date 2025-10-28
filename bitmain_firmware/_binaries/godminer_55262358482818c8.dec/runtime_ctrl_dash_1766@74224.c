@@ -1,0 +1,191 @@
+void *runtime_ctrl_dash_1766()
+{
+  unsigned int v0; // r6
+  unsigned int v1; // r12
+  __int64 v2; // r0
+  unsigned int v3; // r4
+  unsigned int v4; // lr
+  int v5; // r3
+  __int64 v6; // r0
+  unsigned int v7; // r2
+  int v8; // r8
+  int v9; // r7
+  int v10; // r9
+  __int64 v11; // r0
+  void *v12; // r0
+  _QWORD v14[145]; // [sp+0h] [bp-488h] BYREF
+
+  LOWORD(v0) = -17752;
+  memset(v14, 0, sizeof(v14));
+  LOWORD(v1) = -18428;
+  LOWORD(v2) = -17868;
+  WORD2(v2) = -17768;
+  HIWORD(v1) = (unsigned int)&loc_CB7EC >> 16;
+  WORD1(v2) = (unsigned int)&locret_CBA1C >> 16;
+  HIWORD(v2) = (unsigned int)&loc_CBA80 >> 16;
+  v14[0] = __PAIR64__(v2, v1);
+  LOWORD(v3) = -17716;
+  LOWORD(v4) = -19576;
+  LODWORD(v14[2]) = HIDWORD(v2);
+  LOWORD(v1) = -19156;
+  LOWORD(v2) = -19196;
+  WORD2(v2) = -18472;
+  HIWORD(v0) = (unsigned int)&loc_CBA90 >> 16;
+  HIWORD(v3) = (unsigned int)&loc_CBAB4 >> 16;
+  HIWORD(v4) = (unsigned int)&loc_CB370 >> 16;
+  HIWORD(v1) = (unsigned int)&loc_CB514 >> 16;
+  WORD1(v2) = (unsigned int)&loc_CB4EC >> 16;
+  HIWORD(v2) = (unsigned int)&loc_CB7C0 >> 16;
+  HIDWORD(v14[2]) = v0;
+  LOWORD(v0) = -18444;
+  v14[3] = __PAIR64__(v4, v3);
+  LOWORD(v3) = -452;
+  LOWORD(v4) = -1652;
+  v14[4] = __PAIR64__(v2, v1);
+  LOWORD(v1) = 12704;
+  LOWORD(v2) = 7284;
+  LODWORD(v14[5]) = HIDWORD(v2);
+  WORD2(v2) = -2988;
+  HIWORD(v0) = (unsigned int)&loc_CB7DC >> 16;
+  HIWORD(v3) = (unsigned int)&loc_6FE24 >> 16;
+  HIWORD(v4) = (unsigned int)&loc_6F974 >> 16;
+  HIWORD(v1) = (unsigned int)&loc_73188 >> 16;
+  WORD1(v2) = (unsigned int)sub_71C5C >> 16;
+  HIWORD(v2) = (unsigned int)&loc_6F43C >> 16;
+  HIDWORD(v14[5]) = v0;
+  LOWORD(v0) = -2072;
+  LODWORD(v14[7]) = v3;
+  LOWORD(v3) = 14828;
+  v14[8] = __PAIR64__(v1, v4);
+  LOWORD(v4) = 7260;
+  LOWORD(v1) = 6976;
+  v14[9] = v2;
+  LOWORD(v2) = 236;
+  WORD2(v2) = 6252;
+  HIWORD(v0) = (unsigned int)&loc_6F7D0 >> 16;
+  HIWORD(v3) = (unsigned int)&loc_739D4 >> 16;
+  HIWORD(v4) = (unsigned int)&loc_71C44 >> 16;
+  HIWORD(v1) = (unsigned int)&loc_71B28 >> 16;
+  WORD1(v2) = (unsigned int)&loc_700D4 >> 16;
+  HIWORD(v2) = (unsigned int)&loc_71854 >> 16;
+  v14[10] = __PAIR64__(v3, v0);
+  LOWORD(v5) = -24476;
+  LOWORD(v0) = 5264;
+  v14[11] = __PAIR64__(v1, v4);
+  LOWORD(v3) = 4296;
+  LOWORD(v4) = 3028;
+  LODWORD(v14[12]) = v2;
+  LOWORD(v1) = 2096;
+  LODWORD(v14[13]) = HIDWORD(v2);
+  LOWORD(v2) = -3536;
+  WORD2(v2) = -3528;
+  HIWORD(v5) = (unsigned int)"_ckb" >> 16;
+  HIWORD(v0) = (unsigned int)&loc_71478 >> 16;
+  HIWORD(v3) = (unsigned int)&locret_710B0 >> 16;
+  HIWORD(v4) = (unsigned int)&loc_70BBC >> 16;
+  HIWORD(v1) = (unsigned int)&loc_70818 >> 16;
+  WORD1(v2) = (unsigned int)&locret_6F218 >> 16;
+  HIWORD(v2) = (unsigned int)&dword_6F220 >> 16;
+  HIDWORD(v14[13]) = v0;
+  v14[14] = __PAIR64__(v4, v3);
+  LOWORD(v0) = -3472;
+  LOWORD(v3) = -3336;
+  LODWORD(v14[15]) = v1;
+  LOWORD(v4) = -3208;
+  v14[16] = v2;
+  LOWORD(v1) = -2052;
+  LOWORD(v2) = 13244;
+  WORD2(v2) = 13004;
+  HIWORD(v0) = (unsigned int)&loc_6F258 >> 16;
+  HIWORD(v3) = (unsigned int)&locret_6F2E0 >> 16;
+  HIWORD(v4) = (unsigned int)&loc_6F360 >> 16;
+  HIWORD(v1) = (unsigned int)&locret_6F7E4 >> 16;
+  WORD1(v2) = (unsigned int)&loc_733A4 >> 16;
+  HIWORD(v2) = (unsigned int)&loc_732B4 >> 16;
+  v14[17] = __PAIR64__(v3, v0);
+  LOWORD(v0) = -19164;
+  LOWORD(v3) = 11724;
+  v14[18] = __PAIR64__(v1, v4);
+  LOWORD(v4) = 9312;
+  HIWORD(v3) = (unsigned int)&loc_72DB4 >> 16;
+  v14[19] = v2;
+  HIWORD(v4) = (unsigned int)&loc_72448 >> 16;
+  LOWORD(v1) = -3064;
+  v6 = *(_QWORD *)(v5 + 1444);
+  HIWORD(v1) = (unsigned int)&locret_6F3F0 >> 16;
+  LODWORD(v14[20]) = v3;
+  LOWORD(v7) = 11376;
+  v14[21] = __PAIR64__(v1, v4);
+  LOWORD(v3) = 13444;
+  BYTE4(v14[40]) = BYTE4(v6);
+  LOWORD(v4) = 260;
+  WORD2(v6) = -17408;
+  LODWORD(v14[40]) = v6;
+  HIWORD(v0) = (unsigned int)&loc_CB50C >> 16;
+  HIWORD(v3) = (unsigned int)&loc_7346C >> 16;
+  HIWORD(v7) = (unsigned int)&loc_72C58 >> 16;
+  HIWORD(v4) = (unsigned int)sub_700EC >> 16;
+  HIWORD(v6) = (unsigned int)&loc_CBBE8 >> 16;
+  LOWORD(v1) = 15100;
+  LOWORD(v6) = 15420;
+  HIDWORD(v14[24]) = v0;
+  HIWORD(v1) = (unsigned int)&loc_73AE4 >> 16;
+  v14[25] = __PAIR64__(v7, v3);
+  WORD1(v6) = (unsigned int)&loc_73C24 >> 16;
+  LOWORD(v8) = -24;
+  HIDWORD(v14[26]) = v4;
+  LOWORD(v9) = -19172;
+  LODWORD(v14[32]) = HIDWORD(v6);
+  LOWORD(v0) = -17200;
+  LOWORD(v3) = -16872;
+  LOWORD(v7) = -12096;
+  LOWORD(v4) = -9116;
+  WORD2(v6) = -7476;
+  HIWORD(v7) = (unsigned int)&loc_CD0A8 >> 16;
+  LODWORD(v14[27]) = v1;
+  LODWORD(v14[28]) = v6;
+  HIWORD(v8) = (unsigned int)&loc_6FFD0 >> 16;
+  HIWORD(v9) = (unsigned int)async_push_work_base >> 16;
+  HIWORD(v0) = (unsigned int)&loc_CBCB8 >> 16;
+  HIWORD(v3) = (unsigned int)&loc_CBE00 >> 16;
+  HIWORD(v4) = (unsigned int)&loc_CDC4C >> 16;
+  HIWORD(v6) = (unsigned int)&loc_CE2B4 >> 16;
+  LOWORD(v10) = 12200;
+  LOWORD(v1) = -8472;
+  LOWORD(v6) = -17088;
+  HIDWORD(v14[23]) = v8;
+  LODWORD(v14[24]) = v9;
+  HIDWORD(v14[32]) = v0;
+  v14[33] = __PAIR64__(v7, v3);
+  v14[34] = __PAIR64__(v4, v7);
+  HIWORD(v10) = (unsigned int)&loc_72F90 >> 16;
+  HIDWORD(v14[37]) = HIDWORD(v6);
+  HIWORD(v1) = (unsigned int)&locret_CDED0 >> 16;
+  WORD1(v6) = (unsigned int)&loc_CBD28 >> 16;
+  HIDWORD(v14[20]) = v10;
+  v14[35] = __PAIR64__(v6, v1);
+  HIBYTE(v14[40]) = 0;
+  *(_WORD *)((char *)&v14[40] + 5) = 0;
+  LODWORD(v14[38]) = 14660;
+  v14[41] = 0x100001766LL;
+  v14[42] = 0xC0000007ELL;
+  v14[43] = 0x10000000CLL;
+  v11 = *(_QWORD *)(v5 + 1452);
+  HIDWORD(v14[65]) = 1;
+  *(_QWORD *)((char *)&v14[46] + 4) = v11;
+  BYTE4(v14[123]) = 12;
+  v14[122] = 0x58C43C80000LL;
+  HIDWORD(v14[48]) = sensor_info_dash_1766;
+  v14[49] = qword_1927A8;
+  v14[50] = qword_1927B0;
+  HIDWORD(v14[103]) = 176;
+  HIDWORD(v14[121]) = 1112014848;
+  v14[51] = qword_1927B8;
+  v14[124] = 1597;
+  HIDWORD(v14[44]) = 2;
+  LODWORD(v14[54]) = 35;
+  v14[104] = 0x400000050LL;
+  v14[105] = 0xA00000056LL;
+  v12 = calloc(1u, 0x488u);
+  return memcpy(v12, v14, 0x488u);
+}

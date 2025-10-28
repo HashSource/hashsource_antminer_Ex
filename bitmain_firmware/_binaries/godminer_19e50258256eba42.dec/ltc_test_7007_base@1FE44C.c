@@ -1,0 +1,38 @@
+int ltc_test_7007_base()
+{
+  int v1; // [sp+4h] [bp-8h] BYREF
+
+  v1 = 0;
+  fpga_write(4120, 1073774592);
+  fpga_read(4120, &v1);
+  printf("addr: 0x1018,val:%08x\n", v1);
+  fpga_write(4124, 266338304);
+  fpga_read(4124, &v1);
+  printf("addr: 0x101c,val:%08x\n", v1);
+  fpga_write(4132, 930944);
+  fpga_read(4132, &v1);
+  printf("addr: 0x1024,val:%08x\n", v1);
+  fpga_write(4136, 10320);
+  fpga_read(4136, &v1);
+  printf("addr: 0x1028,val:%08x\n", v1);
+  fpga_write(4096, 2);
+  fpga_read(4096, &v1);
+  printf("addr: 0x1000,val:%08x\n", v1);
+  fpga_write(4108, (int)"voltage");
+  fpga_read(4108, &v1);
+  printf("addr: 0x100c,val:%08x\n", v1);
+  fpga_write(4112, 0);
+  fpga_read(4112, &v1);
+  printf("addr: 0x1010,val:%08x\n", v1);
+  fpga_write(4104, 260046848);
+  fpga_read(4104, &v1);
+  printf("addr: 0x1008,val:%08x\n", v1);
+  fpga_write(4116, 1);
+  fpga_read(4116, &v1);
+  printf("addr: 0x1014,val:%08x\n", v1);
+  fpga_write(4100, 0);
+  fpga_read(4100, &v1);
+  printf("addr: 0x1004,val:%08x\n", v1);
+  usleep(2u);
+  return 0;
+}

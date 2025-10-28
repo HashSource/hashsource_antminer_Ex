@@ -1,0 +1,667 @@
+int __fastcall SOC_24G_seq1_20210922_update(int a1, int a2, unsigned __int8 a3, int a4)
+{
+  int v7; // r11
+  int v8; // r10
+  int v9; // r9
+  int v10; // r0
+  int v11; // r6
+  int v12; // r7
+  bool v13; // zf
+  int v14; // r12
+  int v15; // lr
+  int v16; // r12
+  int v17; // r12
+  int v18; // r12
+  int v19; // r12
+  int v20; // lr
+  int v21; // lr
+  int v22; // r12
+  int v23; // lr
+  int v24; // lr
+  int v25; // lr
+  int v26; // r12
+  int v27; // lr
+  int v28; // lr
+  int v29; // r12
+  int v30; // lr
+  int v31; // r12
+  int v32; // lr
+  int v33; // r12
+  int v34; // lr
+  int v35; // r12
+  int v36; // r12
+  int v37; // lr
+  int v38; // lr
+  int v39; // r12
+  int v40; // lr
+  int v41; // r3
+  int v42; // r12
+  int v43; // lr
+  int v44; // lr
+  int v45; // r12
+  int v46; // lr
+  int v47; // r12
+  int v48; // lr
+  int v49; // lr
+  int v50; // r12
+  int v51; // r8
+  int v53; // [sp+2Ch] [bp-10C8h]
+  int v54; // [sp+30h] [bp-10C4h]
+  int v55; // [sp+34h] [bp-10C0h]
+  int v56; // [sp+38h] [bp-10BCh]
+  int v57; // [sp+3Ch] [bp-10B8h]
+  int v58; // [sp+40h] [bp-10B4h]
+  int v59; // [sp+44h] [bp-10B0h]
+  int v60; // [sp+48h] [bp-10ACh]
+  int v61; // [sp+4Ch] [bp-10A8h]
+  int v62; // [sp+50h] [bp-10A4h]
+  int v63; // [sp+54h] [bp-10A0h]
+  int v64; // [sp+58h] [bp-109Ch]
+  int v65; // [sp+5Ch] [bp-1098h]
+  int v66; // [sp+60h] [bp-1094h]
+  int v67; // [sp+64h] [bp-1090h]
+  int v68; // [sp+68h] [bp-108Ch]
+  int v69; // [sp+6Ch] [bp-1088h]
+  int v70; // [sp+70h] [bp-1084h]
+  int v71; // [sp+74h] [bp-1080h]
+  int v72; // [sp+78h] [bp-107Ch]
+  int v73; // [sp+7Ch] [bp-1078h]
+  int v74; // [sp+80h] [bp-1074h]
+  int v75; // [sp+84h] [bp-1070h]
+  int v76; // [sp+88h] [bp-106Ch]
+  int v77; // [sp+8Ch] [bp-1068h]
+  int v78; // [sp+90h] [bp-1064h]
+  int v79; // [sp+94h] [bp-1060h]
+  int v80; // [sp+98h] [bp-105Ch]
+  int v81; // [sp+9Ch] [bp-1058h]
+  int v82; // [sp+A0h] [bp-1054h]
+  int v83; // [sp+A4h] [bp-1050h]
+  int v84; // [sp+A8h] [bp-104Ch]
+  int v85; // [sp+ACh] [bp-1048h]
+  int v86; // [sp+B0h] [bp-1044h]
+  int v87; // [sp+B4h] [bp-1040h]
+  int v88; // [sp+B8h] [bp-103Ch]
+  int v89; // [sp+BCh] [bp-1038h]
+  int v90; // [sp+C0h] [bp-1034h]
+  int v91; // [sp+C4h] [bp-1030h]
+  int v92; // [sp+C8h] [bp-102Ch]
+  int v93; // [sp+CCh] [bp-1028h]
+  int v94; // [sp+D0h] [bp-1024h] BYREF
+  _BYTE v95[4100]; // [sp+F0h] [bp-1004h] BYREF
+
+  V_LOCK(a1);
+  v7 = 61511;
+  v8 = 61496;
+  V_INT((int)&v94, "chain");
+  v9 = 61512;
+  v10 = logfmt_raw((int)v95, 0x1000u);
+  V_UNLOCK(v10);
+  v11 = 61441;
+  v12 = 61630;
+  zlog(
+    g_zc,
+    "/workspace/jenkins/jenkins/workspace/Antminer_E9_release/build/rootfs/buildroot/tmp/release/build/godminer-origin_ma"
+    "ster/backend/backend_eth/backend_eth.c",
+    154,
+    "SOC_24G_seq1_20210922_update",
+    28,
+    5062,
+    60,
+    v95);
+  v13 = a4 == 8;
+  v14 = 61497;
+  if ( a4 != 8 )
+    v14 = 57;
+  v15 = 61447;
+  v93 = v14;
+  v16 = 61495;
+  if ( a4 != 8 )
+  {
+    v16 = 55;
+    v15 = 7;
+  }
+  v92 = v16;
+  v17 = 61542;
+  if ( a4 != 8 )
+    v17 = 102;
+  v89 = v15;
+  v91 = v17;
+  v18 = 61541;
+  if ( a4 != 8 )
+  {
+    v18 = 101;
+    v15 = 54;
+  }
+  v90 = v18;
+  v19 = 61494;
+  if ( a4 == 8 )
+    v15 = 61494;
+  else
+    v19 = 53;
+  v88 = v15;
+  if ( a4 == 8 )
+    v19 = 61493;
+  v20 = 61492;
+  if ( a4 != 8 )
+    v20 = 52;
+  v87 = v19;
+  v86 = v20;
+  v21 = 61490;
+  if ( a4 != 8 )
+    v21 = 50;
+  v22 = 61484;
+  v85 = v21;
+  v23 = 61446;
+  if ( a4 != 8 )
+  {
+    v23 = 6;
+    v22 = 44;
+  }
+  v84 = v23;
+  v83 = v22;
+  if ( a4 == 8 )
+    v22 = 61483;
+  v24 = 61481;
+  if ( a4 != 8 )
+  {
+    v24 = 41;
+    v22 = 43;
+  }
+  v81 = v24;
+  v25 = 61480;
+  if ( a4 != 8 )
+    v25 = 40;
+  v82 = v22;
+  v26 = 61479;
+  v80 = v25;
+  if ( a4 != 8 )
+    v26 = 39;
+  v79 = v26;
+  if ( a4 == 8 )
+    v26 = 61510;
+  v27 = 61556;
+  if ( a4 != 8 )
+  {
+    v27 = 116;
+    v26 = 70;
+  }
+  v78 = v27;
+  v28 = 61474;
+  if ( a4 != 8 )
+    v28 = 34;
+  v55 = v26;
+  v77 = v28;
+  v29 = 61545;
+  v30 = 61580;
+  if ( a4 != 8 )
+  {
+    v29 = 105;
+    v30 = 140;
+  }
+  v76 = v29;
+  v75 = v30;
+  v31 = 61579;
+  v32 = 61606;
+  if ( a4 != 8 )
+  {
+    v31 = 139;
+    v32 = 166;
+  }
+  v74 = v31;
+  v73 = v32;
+  v33 = 61564;
+  v34 = 61590;
+  if ( a4 != 8 )
+  {
+    v33 = 124;
+    v34 = 150;
+  }
+  v72 = v33;
+  v71 = v34;
+  v35 = 61443;
+  if ( a4 != 8 )
+    v35 = 3;
+  v70 = v35;
+  if ( a4 == 8 )
+    v36 = 61448;
+  else
+    v36 = 8;
+  v60 = v36;
+  if ( a4 == 8 )
+    v36 = 61442;
+  v37 = 61622;
+  if ( a4 != 8 )
+    v37 = 182;
+  v69 = v37;
+  v38 = 61566;
+  if ( a4 != 8 )
+  {
+    v38 = 126;
+    v36 = 2;
+  }
+  v68 = v38;
+  v54 = v36;
+  if ( a4 == 8 )
+    v39 = 61514;
+  else
+    v39 = 74;
+  v40 = 61458;
+  if ( a4 != 8 )
+    v40 = 18;
+  v41 = 61550;
+  v59 = v39;
+  if ( a4 != 8 )
+    v41 = 110;
+  v67 = v40;
+  v42 = 61469;
+  v43 = 61472;
+  if ( a4 != 8 )
+  {
+    v42 = 29;
+    v43 = 32;
+  }
+  v53 = v41;
+  v66 = v43;
+  v44 = 61466;
+  v65 = v42;
+  if ( a4 != 8 )
+    v44 = 26;
+  v45 = 61467;
+  if ( a4 != 8 )
+    v45 = 27;
+  v58 = v44;
+  v46 = 61465;
+  v64 = v45;
+  if ( a4 != 8 )
+    v46 = 25;
+  v47 = 61488;
+  if ( a4 != 8 )
+  {
+    v47 = 48;
+    v11 = 1;
+  }
+  v57 = v46;
+  v63 = v47;
+  v48 = 61487;
+  if ( a4 != 8 )
+    v48 = 47;
+  v62 = v48;
+  if ( a4 == 8 )
+    v49 = 61482;
+  else
+    v49 = 42;
+  v50 = 61551;
+  if ( a4 != 8 )
+    v50 = 111;
+  v56 = v49;
+  v61 = v50;
+  if ( a4 != 8 )
+  {
+    v12 = 190;
+    v9 = 72;
+    v7 = 71;
+  }
+  v51 = 61513;
+  if ( !v13 )
+  {
+    v8 = 56;
+    v51 = 73;
+  }
+  sub_5D9EC(a1, a3, v11, -9);
+  sub_5D9EC(a1, a3, v53, 0);
+  sub_5C2A0(a1, a3, 144, -520093697);
+  sub_5C2A0(a1, a3, 145, -2147438591);
+  sub_5C2A0(a1, a3, 144, 251658240);
+  sub_5C2A0(a1, a3, 145, -2147438529);
+  sub_5C2A0(a1, a3, 144, -520093697);
+  sub_5C2A0(a1, a3, 145, -2147434495);
+  sub_5C2A0(a1, a3, 144, 251658240);
+  sub_5C2A0(a1, a3, 145, -2147434433);
+  sub_5C2A0(a1, a3, 144, -1048321);
+  sub_5C2A0(a1, a3, 145, -2147438591);
+  sub_5C2A0(a1, a3, 144, 256);
+  sub_5C2A0(a1, a3, 145, -2147438530);
+  sub_5C2A0(a1, a3, 144, -1048321);
+  sub_5C2A0(a1, a3, 145, -2147434495);
+  sub_5C2A0(a1, a3, 144, 256);
+  sub_5C2A0(a1, a3, 145, -2147434434);
+  sub_5C2A0(a1, a3, 144, -4096);
+  sub_5C2A0(a1, a3, 145, -2147438591);
+  sub_5C2A0(a1, a3, 144, 4);
+  sub_5C2A0(a1, a3, 145, -2147438529);
+  sub_5C2A0(a1, a3, 144, -4096);
+  sub_5C2A0(a1, a3, 145, -2147434495);
+  sub_5C2A0(a1, a3, 144, 4);
+  sub_5C2A0(a1, a3, 145, -2147434433);
+  sub_5D9EC(a1, a3, v11, -3);
+  sub_5D9EC(a1, a3, v53, 0);
+  sub_5D9EC(a1, a3, v11, 0x7FFFFFFF);
+  sub_5D9EC(a1, a3, v61, 0x80000000);
+  sub_5D9EC(a1, a3, v11, -262145);
+  sub_5D9EC(a1, a3, v53, 0);
+  sub_5D9EC(a1, a3, v11, -5);
+  sub_5D9EC(a1, a3, v53, 0);
+  sub_5C2A0(a1, a3, 144, 0xFFFFFF);
+  sub_5C2A0(a1, a3, 145, -2147438591);
+  sub_5C2A0(a1, a3, 144, 838860800);
+  sub_5C2A0(a1, a3, 145, -2147438590);
+  sub_5C2A0(a1, a3, 144, 0xFFFFFF);
+  sub_5C2A0(a1, a3, 145, -2147434495);
+  sub_5C2A0(a1, a3, 144, 838860800);
+  sub_5C2A0(a1, a3, 145, -2147434494);
+  sub_5C2A0(a1, a3, 144, -4);
+  sub_5C2A0(a1, a3, 145, -2147438591);
+  sub_5C2A0(a1, a3, 144, 0);
+  sub_5C2A0(a1, a3, 145, -2147438589);
+  sub_5C2A0(a1, a3, 144, -4);
+  sub_5C2A0(a1, a3, 145, -2147434495);
+  sub_5C2A0(a1, a3, 144, 0);
+  sub_5C2A0(a1, a3, 145, -2147434493);
+  sub_5C2A0(a1, a3, 144, 0xFFFFFFF);
+  sub_5C2A0(a1, a3, 145, -2147438591);
+  sub_5C2A0(a1, a3, 144, 0x20000000);
+  sub_5C2A0(a1, a3, 145, -2147438587);
+  sub_5C2A0(a1, a3, 144, 0xFFFFFFF);
+  sub_5C2A0(a1, a3, 145, -2147434495);
+  sub_5C2A0(a1, a3, 144, 0x20000000);
+  sub_5C2A0(a1, a3, 145, -2147434491);
+  sub_5C2A0(a1, a3, 144, -64);
+  sub_5C2A0(a1, a3, 145, -2147438591);
+  sub_5C2A0(a1, a3, 144, 3);
+  sub_5C2A0(a1, a3, 145, -2147438586);
+  sub_5C2A0(a1, a3, 144, -64);
+  sub_5C2A0(a1, a3, 145, -2147434495);
+  sub_5C2A0(a1, a3, 144, 3);
+  sub_5C2A0(a1, a3, 145, -2147434490);
+  sub_5D9EC(a1, a3, v11, -1024);
+  sub_5D9EC(a1, a3, v56, 50);
+  sub_5D9EC(a1, a3, v11, 0xFFFFFF);
+  sub_5D9EC(a1, a3, v62, 838860800);
+  sub_5D9EC(a1, a3, v11, -4);
+  sub_5D9EC(a1, a3, v63, 0);
+  sub_5D9EC(a1, a3, v11, -2049);
+  sub_5D9EC(a1, a3, v57, 0);
+  sub_5D9EC(a1, a3, v11, -2097153);
+  sub_5D9EC(a1, a3, v64, 0);
+  sub_5D9EC(a1, a3, v11, -536870913);
+  sub_5D9EC(a1, a3, v58, 0);
+  sub_5D9EC(a1, a3, v11, -5);
+  sub_5D9EC(a1, a3, v65, 4);
+  sub_5D9EC(a1, a3, v11, 0x7FFFFFFF);
+  sub_5D9EC(a1, a3, v58, 0);
+  sub_5D9EC(a1, a3, v11, -1025);
+  sub_5D9EC(a1, a3, v7, 0);
+  sub_5C2A0(a1, a3, 144, -7340033);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 0x200000);
+  sub_5C2A0(a1, a3, 145, -2147450872);
+  sub_5C2A0(a1, a3, 144, -57345);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 40960);
+  sub_5C2A0(a1, a3, 145, -2147450871);
+  sub_5D9EC(a1, a3, v11, -67108865);
+  sub_5D9EC(a1, a3, v66, 0x4000000);
+  sub_5C2A0(a1, a3, 144, -131073);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 0);
+  sub_5C2A0(a1, a3, 145, -2147450818);
+  sub_5D9EC(a1, a3, v11, -262145);
+  sub_5D9EC(a1, a3, v67, 0x40000);
+  sub_5D9EC(a1, a3, v11, -1025);
+  sub_5D9EC(a1, a3, v59, 1024);
+  sub_5D9EC(a1, a3, v11, -8388609);
+  sub_5D9EC(a1, a3, v68, 0x800000);
+  sub_5D9EC(a1, a3, v11, 0xFFFFFFF);
+  sub_5D9EC(a1, a3, v69, -1610612736);
+  sub_5C2A0(a1, a3, 144, -1009);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 576);
+  sub_5C2A0(a1, a3, 145, -2147450787);
+  sub_5C2A0(a1, a3, 144, -258049);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 147456);
+  sub_5C2A0(a1, a3, 145, -2147450787);
+  sub_5C2A0(a1, a3, 144, -66060289);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 37748736);
+  sub_5C2A0(a1, a3, 145, -2147450787);
+  sub_5C2A0(a1, a3, 144, 0xFFFFFFF);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 0x40000000);
+  sub_5C2A0(a1, a3, 145, -2147450787);
+  sub_5C2A0(a1, a3, 144, -4);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 2);
+  sub_5C2A0(a1, a3, 145, -2147450786);
+  sub_5C2A0(a1, a3, 144, -1009);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 64);
+  sub_5C2A0(a1, a3, 145, -2147450786);
+  sub_5C2A0(a1, a3, 144, -258049);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 0x4000);
+  sub_5C2A0(a1, a3, 145, -2147450786);
+  sub_5C2A0(a1, a3, 144, -66060289);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 0x400000);
+  sub_5C2A0(a1, a3, 145, -2147450786);
+  sub_5C2A0(a1, a3, 144, 0xFFFFFFF);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 0x40000000);
+  sub_5C2A0(a1, a3, 145, -2147450786);
+  sub_5C2A0(a1, a3, 144, -4);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 0);
+  sub_5C2A0(a1, a3, 145, -2147450785);
+  sub_5C2A0(a1, a3, 144, -524289);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 0);
+  sub_5C2A0(a1, a3, 145, -2147450815);
+  sub_5C2A0(a1, a3, 144, -1009);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 64);
+  sub_5C2A0(a1, a3, 145, -2147450878);
+  sub_5D9EC(a1, a3, v11, -196609);
+  sub_5D9EC(a1, a3, v54, 196608);
+  sub_5D9EC(a1, a3, v11, -4);
+  sub_5D9EC(a1, a3, v60, 3);
+  sub_5D9EC(a1, a3, v11, -196609);
+  sub_5D9EC(a1, a3, v60, 196608);
+  sub_5D9EC(a1, a3, v11, -196609);
+  sub_5D9EC(a1, a3, v70, 196608);
+  sub_5C2A0(a1, a3, 144, -786433);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 786432);
+  sub_5C2A0(a1, a3, 145, -2147450818);
+  sub_5C2A0(a1, a3, 144, -2);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 1);
+  sub_5C2A0(a1, a3, 145, -2147450878);
+  sub_5C2A0(a1, a3, 144, -8388609);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 0x800000);
+  sub_5C2A0(a1, a3, 145, -2147450808);
+  sub_5C2A0(a1, a3, 144, -805306369);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 0x20000000);
+  sub_5C2A0(a1, a3, 145, -2147450804);
+  sub_5C2A0(a1, a3, 144, -97);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 32);
+  sub_5C2A0(a1, a3, 145, -2147450868);
+  sub_5D9EC(a1, a3, v11, -12289);
+  sub_5D9EC(a1, a3, v71, 0x2000);
+  sub_5D9EC(a1, a3, v11, -4194305);
+  sub_5D9EC(a1, a3, v72, 0x400000);
+  sub_5D9EC(a1, a3, v11, -497);
+  sub_5D9EC(a1, a3, v12, 384);
+  sub_5D9EC(a1, a3, v11, -225);
+  sub_5D9EC(a1, a3, v73, 0);
+  sub_5D9EC(a1, a3, v11, -61441);
+  sub_5D9EC(a1, a3, v12, 0x4000);
+  serdes_apb_write_1_chip(a1, 1, 7u, v12, 24576);
+  serdes_apb_write_1_chip(a1, 1, 6u, v12, 20480);
+  serdes_apb_write_1_chip(a1, 2, 5u, v12, 20480);
+  serdes_apb_write_1_chip(a1, 4, 7u, v12, 24576);
+  serdes_apb_write_1_chip(a1, 4, 3u, v12, 20480);
+  serdes_apb_write_1_chip(a1, 5, 7u, v12, 24576);
+  serdes_apb_write_1_chip(a1, 5, 0xFu, v12, 20480);
+  serdes_apb_write_1_chip(a1, 6, 7u, v12, 24576);
+  serdes_apb_write_1_chip(a1, 6, 0xFu, v12, 20480);
+  sub_5D9EC(a1, a3, v11, -32769);
+  sub_5D9EC(a1, a3, v74, 0x8000);
+  sub_5D9EC(a1, a3, v11, -65537);
+  sub_5D9EC(a1, a3, v75, 0x10000);
+  sub_5D9EC(a1, a3, v11, -131073);
+  sub_5D9EC(a1, a3, v75, 0x20000);
+  sub_5D9EC(a1, a3, v11, -65521);
+  sub_5D9EC(a1, a3, v54, 0x8000);
+  sub_5D9EC(a1, a3, v11, -13);
+  sub_5D9EC(a1, a3, v76, 8);
+  sub_5D9EC(a1, a3, v11, -1537);
+  sub_5D9EC(a1, a3, v9, 1024);
+  sub_5C2A0(a1, a3, 144, -13);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 8);
+  sub_5C2A0(a1, a3, 145, -2147450878);
+  sub_5C2A0(a1, a3, 144, -100663297);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 100663296);
+  sub_5C2A0(a1, a3, 145, -2147450820);
+  sub_5C2A0(a1, a3, 144, 0x7FFFFFFF);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 0);
+  sub_5C2A0(a1, a3, 145, -2147450853);
+  sub_5C2A0(a1, a3, 144, -2);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 0);
+  sub_5C2A0(a1, a3, 145, -2147450852);
+  sub_5D9EC(a1, a3, v11, -4);
+  sub_5D9EC(a1, a3, v57, 1);
+  sub_5D9EC(a1, a3, v11, -201326593);
+  sub_5D9EC(a1, a3, v77, 0x4000000);
+  sub_5D9EC(a1, a3, v11, -805306369);
+  sub_5D9EC(a1, a3, v78, 0x10000000);
+  sub_5C2A0(a1, a3, 144, -28673);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 12288);
+  sub_5C2A0(a1, a3, 145, -2147450860);
+  sub_5D9EC(a1, a3, v11, -32505857);
+  sub_5D9EC(a1, a3, v55, 0);
+  sub_5D9EC(a1, a3, v11, 0xFFFFFFF);
+  sub_5D9EC(a1, a3, v55, 0);
+  sub_5D9EC(a1, a3, v11, -2);
+  sub_5D9EC(a1, a3, v7, 0);
+  sub_5D9EC(a1, a3, v11, -497);
+  sub_5D9EC(a1, a3, v7, 0);
+  sub_5D9EC(a1, a3, v11, -126977);
+  sub_5D9EC(a1, a3, v7, 0);
+  sub_5D9EC(a1, a3, v11, -32505857);
+  sub_5D9EC(a1, a3, v7, 0);
+  sub_5D9EC(a1, a3, v11, 0xFFFFFFF);
+  sub_5D9EC(a1, a3, v7, 0);
+  sub_5D9EC(a1, a3, v11, -2);
+  sub_5D9EC(a1, a3, v9, 0);
+  sub_5D9EC(a1, a3, v11, -497);
+  sub_5D9EC(a1, a3, v9, 0);
+  sub_5D9EC(a1, a3, v11, -126977);
+  sub_5D9EC(a1, a3, v9, 0);
+  sub_5D9EC(a1, a3, v11, -32505857);
+  sub_5D9EC(a1, a3, v9, 0);
+  sub_5D9EC(a1, a3, v11, 0xFFFFFFF);
+  sub_5D9EC(a1, a3, v9, 0);
+  sub_5D9EC(a1, a3, v11, -2);
+  sub_5D9EC(a1, a3, v51, 0);
+  sub_5D9EC(a1, a3, v11, -497);
+  sub_5D9EC(a1, a3, v51, 0);
+  sub_5D9EC(a1, a3, v11, -126977);
+  sub_5D9EC(a1, a3, v51, 0);
+  sub_5D9EC(a1, a3, v11, -32505857);
+  sub_5D9EC(a1, a3, v51, 0);
+  sub_5D9EC(a1, a3, v11, 0xFFFFFFF);
+  sub_5D9EC(a1, a3, v51, 0);
+  sub_5D9EC(a1, a3, v11, -2);
+  sub_5D9EC(a1, a3, v59, 0);
+  sub_5D9EC(a1, a3, v11, -497);
+  sub_5D9EC(a1, a3, v59, 0);
+  sub_5D9EC(a1, a3, v11, -126977);
+  sub_5D9EC(a1, a3, v59, 0);
+  sub_5D9EC(a1, a3, v11, -917505);
+  sub_5D9EC(a1, a3, v79, 0);
+  sub_5D9EC(a1, a3, v11, -234881025);
+  sub_5D9EC(a1, a3, v79, 0);
+  sub_5D9EC(a1, a3, v11, -15);
+  sub_5D9EC(a1, a3, v80, 0);
+  sub_5D9EC(a1, a3, v11, -3585);
+  sub_5D9EC(a1, a3, v80, 0);
+  sub_5D9EC(a1, a3, v11, -917505);
+  sub_5D9EC(a1, a3, v80, 0);
+  sub_5D9EC(a1, a3, v11, -234881025);
+  sub_5D9EC(a1, a3, v80, 0);
+  sub_5D9EC(a1, a3, v11, -15);
+  sub_5D9EC(a1, a3, v81, 0);
+  sub_5D9EC(a1, a3, v11, -3585);
+  sub_5D9EC(a1, a3, v81, 0);
+  sub_5D9EC(a1, a3, v11, -917505);
+  sub_5D9EC(a1, a3, v81, 0);
+  sub_5D9EC(a1, a3, v11, -917505);
+  sub_5D9EC(a1, a3, v56, 0);
+  sub_5D9EC(a1, a3, v11, -234881025);
+  sub_5D9EC(a1, a3, v56, 0);
+  sub_5D9EC(a1, a3, v11, -8);
+  sub_5D9EC(a1, a3, v82, 0);
+  sub_5D9EC(a1, a3, v11, -1793);
+  sub_5D9EC(a1, a3, v82, 0);
+  sub_5D9EC(a1, a3, v11, -917505);
+  sub_5D9EC(a1, a3, v82, 0);
+  sub_5D9EC(a1, a3, v11, -234881025);
+  sub_5D9EC(a1, a3, v82, 0);
+  sub_5D9EC(a1, a3, v11, -15);
+  sub_5D9EC(a1, a3, v83, 0);
+  sub_5D9EC(a1, a3, v11, -241);
+  sub_5D9EC(a1, a3, v84, 96);
+  sub_5D9EC(a1, a3, v11, -4);
+  sub_5D9EC(a1, a3, v54, 2);
+  sub_5D9EC(a1, a3, v11, -8193);
+  sub_5D9EC(a1, a3, v85, 0);
+  sub_5D9EC(a1, a3, v11, -1025);
+  sub_5D9EC(a1, a3, v86, 0);
+  sub_5D9EC(a1, a3, v11, -9);
+  sub_5D9EC(a1, a3, v87, 8);
+  sub_5D9EC(a1, a3, v11, -134217729);
+  sub_5D9EC(a1, a3, v88, 0x8000000);
+  sub_5D9EC(a1, a3, v11, -2);
+  sub_5D9EC(a1, a3, v55, 0);
+  sub_5D9EC(a1, a3, v11, -3145729);
+  sub_5D9EC(a1, a3, v89, 0x200000);
+  sub_5D9EC(a1, a3, v11, 0xFFFFFFF);
+  sub_5D9EC(a1, a3, v90, -268435456);
+  sub_5D9EC(a1, a3, v11, -16);
+  sub_5D9EC(a1, a3, v91, 8);
+  sub_5D9EC(a1, a3, v11, -234881025);
+  sub_5D9EC(a1, a3, v92, 0x8000000);
+  sub_5D9EC(a1, a3, v11, -8);
+  sub_5D9EC(a1, a3, v8, 6);
+  sub_5D9EC(a1, a3, v11, -1793);
+  sub_5D9EC(a1, a3, v8, 768);
+  sub_5D9EC(a1, a3, v11, -458753);
+  sub_5D9EC(a1, a3, v8, 393216);
+  sub_5D9EC(a1, a3, v11, -117440513);
+  sub_5D9EC(a1, a3, v8, 0x2000000);
+  sub_5D9EC(a1, a3, v11, -8);
+  sub_5D9EC(a1, a3, v93, 6);
+  sub_5D9EC(a1, a3, v11, -8388609);
+  sub_5D9EC(a1, a3, v85, 0x800000);
+  sub_5D9EC(a1, a3, v11, -2049);
+  sub_5D9EC(a1, a3, v87, 2048);
+  sub_5D9EC(a1, a3, v11, 0);
+  sub_5C2A0(a1, a3, 144, 0);
+  sub_5C2A0(a1, a3, 145, -2147450879);
+  sub_5C2A0(a1, a3, 144, 0);
+  sub_5C2A0(a1, a3, 145, -2147442687);
+  sub_5C2A0(a1, a3, 144, 0);
+  sub_5C2A0(a1, a3, 145, -2147438591);
+  sub_5C2A0(a1, a3, 144, 0);
+  sub_5C2A0(a1, a3, 145, -2147434495);
+  return 0;
+}

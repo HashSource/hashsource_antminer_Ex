@@ -1,0 +1,35 @@
+int sub_629B0()
+{
+  sub_191B7C("mi1");
+  sub_191B7C("mi2");
+  sub_191B7C("mi3");
+  sub_191B7C("mi");
+  sub_1B8CB8(396320);
+  sub_1B8D74(396212);
+  sub_1B8E34(396092);
+  sub_1B8EF0(395972);
+  sub_1B8FAC(395864);
+  sub_1B97DC(sub_62190);
+  sub_1B9898(sub_620A8);
+  sub_1BA04C(sub_61FC8);
+  sub_1BA108(sub_61EEC);
+  sub_1BA1C4(sub_61DB4);
+  sub_1BA280(sub_61CDC);
+  sub_1B9428(sub_61BA8);
+  sub_1B8BF8(396440);
+  sub_1B9A24(sub_61930);
+  sub_1B94EC(403628);
+  sub_1B95A8(399284);
+  sub_1B9AF0(395300);
+  sub_1B9DE4(399000);
+  sub_1BA63C(398752);
+  sub_1BA6F8(398508);
+  sub_1BA7B4(398156);
+  sub_1B9BB0(sub_623AC);
+  sub_1B9C6C(397908);
+  sub_1B9D28(sub_622AC);
+  sub_1BA57C(397580);
+  sub_1BA33C(397116);
+  sub_1B906C(395788);
+  return sub_1BAB8C(sub_624AC);
+}

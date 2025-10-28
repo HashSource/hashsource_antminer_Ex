@@ -1,0 +1,59 @@
+int __fastcall set_onechip_to_lower_level_ks5(int a1, int a2)
+{
+  char *v4; // r1
+  int v5; // r5
+  int v6; // r1
+  int v7; // r3
+  void (__fastcall *v8)(int, int *); // r2
+  int v9; // r3
+  int v10; // r5
+  float v11; // s16
+  float v12; // s17
+  _DWORD v14[7]; // [sp+28h] [bp-1020h] BYREF
+  int v15; // [sp+44h] [bp-1004h]
+  int v16; // [sp+48h] [bp-1000h] BYREF
+  int v17; // [sp+4Ch] [bp-FFCh]
+  int v18; // [sp+50h] [bp-FF8h]
+  int v19; // [sp+54h] [bp-FF4h]
+
+  V_LOCK();
+  LOWORD(v4) = 23936;
+  HIWORD(v4) = (unsigned int)"p" >> 16;
+  V_INT((int)v14, v4, *(int *)(a1 + 248));
+  LOWORD(v5) = -5712;
+  HIWORD(v5) = (unsigned int)"u..." >> 16;
+  logfmt_raw((char *)&v16, 0x1000u, 0, v15, v14[0], v14[1], v14[2], v14[3], v14[4], v14[5], v14[6], v15, v5, a2);
+  V_UNLOCK();
+  LOWORD(v6) = -2320;
+  HIWORD(v6) = (unsigned int)&unk_16F6D8 >> 16;
+  zlog(g_zc, v6, 174, "set_onechip_to_lower_level_ks5", 30, 683, 40, &v16);
+  v7 = *(_DWORD *)(a1 + 356);
+  v18 = 4456448;
+  v19 = 0;
+  v17 = 0;
+  v16 = 3;
+  v8 = *(void (__fastcall **)(int, int *))(a1 + 264);
+  BYTE1(v18) = v7 * a2;
+  v8(a1, &v16);
+  v9 = *(_DWORD *)(a1 + 356);
+  v18 = 655360;
+  v19 = 255;
+  v17 = 0;
+  v16 = 0;
+  BYTE1(v18) = v9 * a2;
+  (*(void (__fastcall **)(int, int *))(a1 + 268))(a1, &v16);
+  usleep((__useconds_t)&stru_13880);
+  sub_9A4A8((int *)a1, 36);
+  pthread_mutex_lock((pthread_mutex_t *)(*(_DWORD *)(a1 + 528) + 44 * a2 + 20));
+  v10 = *(_DWORD *)(a1 + 528) + 44 * a2;
+  v11 = *(float *)(v10 + 4);
+  pthread_mutex_unlock((pthread_mutex_t *)(v10 + 20));
+  v12 = *(float *)(a1 + 976) - 100.0;
+  while ( v12 < v11 )
+  {
+    v11 = v11 - 6.25;
+    (*(void (__fastcall **)(int, _DWORD, int))(a1 + 196))(a1, 0, a2);
+    usleep((__useconds_t)&loc_493E0);
+  }
+  return 0;
+}

@@ -1,0 +1,82 @@
+void *runtime_ctrl_zec_1746()
+{
+  void *v0; // r0
+  void *v1; // r6
+  _QWORD v3[119]; // [sp+0h] [bp-3B8h] BYREF
+
+  memset(v3, 0, sizeof(v3));
+  strcpy((char *)&v3[32] + 4, "Z15 Pro");
+  HIDWORD(v3[34]) = 6514042;
+  v3[41] = 0x320000000FALL;
+  v3[43] = sensor_info_zec_1746;
+  v3[44] = qword_163984;
+  v3[45] = qword_16398C;
+  LODWORD(v3[46]) = unk_163994;
+  v0 = calloc(1u, 0x3B8u);
+  HIDWORD(v3[0]) = reset_base;
+  LODWORD(v3[3]) = dhash_mining_reset_base;
+  LODWORD(v3[4]) = push_work_base;
+  HIDWORD(v3[5]) = try_pop_ans_base;
+  LODWORD(v3[8]) = work_2_packet_zec_1746;
+  HIDWORD(v3[9]) = global_idx_init_zec_1746;
+  HIDWORD(v3[10]) = set_baud_zec_1746;
+  HIDWORD(v3[2]) = dhash_mining_stop_base;
+  LODWORD(v3[12]) = sub_97E04;
+  HIDWORD(v3[12]) = sub_97790;
+  LODWORD(v3[5]) = pop_ans_base;
+  HIDWORD(v3[13]) = sub_9A20C;
+  LODWORD(v3[14]) = sub_977A8;
+  LODWORD(v3[2]) = dhash_mining_start_base;
+  LODWORD(v3[9]) = check_nonce_zec_1746;
+  LODWORD(v3[15]) = sub_9A1FC;
+  LODWORD(v3[16]) = get_chip_status_zec_1746;
+  HIDWORD(v3[3]) = backend_exit_base;
+  HIDWORD(v3[4]) = async_push_work_base;
+  HIDWORD(v3[11]) = sub_97788;
+  HIDWORD(v3[16]) = get_theory_hashrate_zec_1746;
+  LODWORD(v3[17]) = get_sale_hashrate_zec_1746;
+  LODWORD(v3[7]) = softreset_all_chip_zec_1746;
+  HIDWORD(v3[8]) = packet_2_nonce_zec_1746;
+  LODWORD(v3[13]) = sub_97798;
+  HIDWORD(v3[17]) = get_qualify_hashrate_zec_1746;
+  LODWORD(v3[18]) = get_qualify_nonce_num_zec_1746;
+  LODWORD(v3[0]) = backend_init_base;
+  LODWORD(v3[10]) = global_idx_free_zec_1746;
+  LODWORD(v3[11]) = sub_97780;
+  v1 = v0;
+  HIDWORD(v3[14]) = sub_977A0;
+  HIDWORD(v3[18]) = set_sensor_extern_mode_zec_1746;
+  LODWORD(v3[19]) = read_sensor_temp_local_zec_1746;
+  LODWORD(v3[20]) = parameter_update_zec_1746;
+  HIDWORD(v3[19]) = read_sensor_temp_remote_zec_1746;
+  LODWORD(v3[21]) = get_pcba_test_level_zec_1746;
+  HIDWORD(v3[20]) = overclock_update_zec_1746;
+  HIDWORD(v3[23]) = set_frequency_zec_1746;
+  HIDWORD(v3[21]) = get_packet_remain_len_zec_1746;
+  HIDWORD(v3[24]) = sub_981B8;
+  LODWORD(v3[24]) = sub_99308;
+  HIDWORD(v3[25]) = dhash_start_zec_1746;
+  LODWORD(v3[25]) = top_init_zec_1746;
+  LODWORD(v3[28]) = set_inactive_base;
+  HIDWORD(v3[27]) = set_chipaddr_base;
+  HIDWORD(v3[30]) = sync_get_status_base3;
+  HIDWORD(v3[28]) = set_chip_reg_base;
+  HIDWORD(v3[35]) = 5958;
+  LODWORD(v3[39]) = 42;
+  LODWORD(v3[49]) = 18;
+  HIDWORD(v3[97]) = 216;
+  LODWORD(v3[31]) = sync_get_chip_reg_base;
+  v3[98] = 0x400000B48LL;
+  v3[99] = 0x5D00000092LL;
+  v3[36] = 0x600000001LL;
+  v3[37] = 0x100000001LL;
+  LODWORD(v3[38]) = 1;
+  HIDWORD(v3[60]) = 1;
+  LODWORD(v3[115]) = 1200;
+  v3[114] = 0x4448000042C80000LL;
+  LOBYTE(v3[116]) = 12;
+  LODWORD(v3[118]) = 1;
+  v3[117] = 90194312;
+  memcpy(v0, v3, 0x3B8u);
+  return v1;
+}

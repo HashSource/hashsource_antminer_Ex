@@ -1,0 +1,8 @@
+int __fastcall sub_1C3948(int *a1, int a2)
+{
+  int v3[5]; // [sp+0h] [bp-14h] BYREF
+
+  v3[0] = a2;
+  memset(&v3[1], 0, 12);
+  return sub_1C2F78(a1, v3);
+}

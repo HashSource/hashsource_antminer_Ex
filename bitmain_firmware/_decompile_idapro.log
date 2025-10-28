@@ -1,0 +1,1455 @@
+2025-10-28 15:45:33 [INFO] ============================================================
+2025-10-28 15:45:33 [INFO] Automated Decompilation (haruspex/IDA Pro)
+2025-10-28 15:45:33 [INFO] ============================================================
+2025-10-28 15:45:33 [INFO] Started: 2025-10-28T15:45:33.349478
+2025-10-28 15:45:33 [INFO] Binaries directory: /home/danielsokil/Lab/HashSource/hashsource_antminer_Ex/bitmain_firmware/_binaries
+2025-10-28 15:45:33 [INFO] Using haruspex: /home/danielsokil/.cargo/bin/haruspex
+2025-10-28 15:45:35 [INFO] Found 89 Bitmain-specific binaries
+2025-10-28 15:45:35 [INFO] Skipped 685 standard tools
+2025-10-28 15:45:35 [INFO] 
+[1/89] Decompiling: FileParser_3f9227b4452b18ae
+2025-10-28 15:45:35 [ERROR] Failed to decompile FileParser_3f9227b4452b18ae (code 1)
+2025-10-28 15:45:35 [INFO] 
+[2/89] Decompiling: FileParser_47c51ae53346db54
+2025-10-28 15:45:36 [ERROR] Failed to decompile FileParser_47c51ae53346db54 (code 1)
+2025-10-28 15:45:36 [INFO] 
+[3/89] Decompiling: FileParser_7a17cabc117bed3e
+2025-10-28 15:45:36 [ERROR] Failed to decompile FileParser_7a17cabc117bed3e (code 1)
+2025-10-28 15:45:36 [INFO] 
+[4/89] Decompiling: FileParser_83164628103d7d0e
+2025-10-28 15:45:37 [ERROR] Failed to decompile FileParser_83164628103d7d0e (code 1)
+2025-10-28 15:45:37 [INFO] 
+[5/89] Decompiling: FileParser_9357b004c468ba22
+2025-10-28 15:45:37 [ERROR] Failed to decompile FileParser_9357b004c468ba22 (code 1)
+2025-10-28 15:45:37 [INFO] 
+[6/89] Decompiling: LTC_mem_bitmain.ko_611509c615d206a0_debug
+2025-10-28 15:45:37 [ERROR] Failed to decompile LTC_mem_bitmain.ko_611509c615d206a0_debug (code 1)
+2025-10-28 15:45:37 [INFO] 
+[7/89] Decompiling: antlogin_0cc4a74736c3f628
+2025-10-28 15:45:38 [ERROR] Failed to decompile antlogin_0cc4a74736c3f628 (code 1)
+2025-10-28 15:45:38 [INFO] 
+[8/89] Decompiling: antlogin_5fb202884793ea96
+2025-10-28 15:45:38 [ERROR] Failed to decompile antlogin_5fb202884793ea96 (code 1)
+2025-10-28 15:45:38 [INFO] 
+[9/89] Decompiling: antlogin_99214bcc71267bb5
+2025-10-28 15:45:39 [ERROR] Failed to decompile antlogin_99214bcc71267bb5 (code 1)
+2025-10-28 15:45:39 [INFO] 
+[10/89] Decompiling: bitmain_axi.ko_18dd4cac57272383_debug
+2025-10-28 15:45:39 [ERROR] Failed to decompile bitmain_axi.ko_18dd4cac57272383_debug (code 1)
+2025-10-28 15:45:39 [INFO] 
+[11/89] Decompiling: bitmain_axi.ko_639db7819b65f17e_debug
+2025-10-28 15:45:39 [ERROR] Failed to decompile bitmain_axi.ko_639db7819b65f17e_debug (code 1)
+2025-10-28 15:45:39 [INFO] 
+[12/89] Decompiling: bitmain_axi.ko_b17bf65072216325_debug
+2025-10-28 15:45:39 [ERROR] Failed to decompile bitmain_axi.ko_b17bf65072216325_debug (code 1)
+2025-10-28 15:45:39 [INFO] 
+[13/89] Decompiling: bitmain_axi.ko_d9dd30f739962da7_debug
+2025-10-28 15:45:40 [ERROR] Failed to decompile bitmain_axi.ko_d9dd30f739962da7_debug (code 1)
+2025-10-28 15:45:40 [INFO] 
+[14/89] Decompiling: cgminer-api_4434c6a9e066c19c
+2025-10-28 15:45:40 [ERROR] Failed to decompile cgminer-api_4434c6a9e066c19c (code 1)
+2025-10-28 15:45:40 [INFO] 
+[15/89] Decompiling: cgminer-api_5951e94f5095a15f
+2025-10-28 15:45:41 [ERROR] Failed to decompile cgminer-api_5951e94f5095a15f (code 1)
+2025-10-28 15:45:41 [INFO] 
+[16/89] Decompiling: cgminer-api_738a9a01b276907a
+2025-10-28 15:45:41 [ERROR] Failed to decompile cgminer-api_738a9a01b276907a (code 1)
+2025-10-28 15:45:41 [INFO] 
+[17/89] Decompiling: cgminer-api_796158dc7fe215b4
+2025-10-28 15:45:41 [ERROR] Failed to decompile cgminer-api_796158dc7fe215b4 (code 1)
+2025-10-28 15:45:41 [INFO] 
+[18/89] Decompiling: cgminer-api_950140325ef05e92
+2025-10-28 15:45:42 [ERROR] Failed to decompile cgminer-api_950140325ef05e92 (code 1)
+2025-10-28 15:45:42 [INFO] 
+[19/89] Decompiling: devmem2_d71ab3a8deee52d4
+2025-10-28 15:45:42 [ERROR] Failed to decompile devmem2_d71ab3a8deee52d4 (code 1)
+2025-10-28 15:45:42 [INFO] 
+[20/89] Decompiling: eeprog_4a6e1480c2d22168
+2025-10-28 15:45:43 [ERROR] Failed to decompile eeprog_4a6e1480c2d22168 (code 1)
+2025-10-28 15:45:43 [INFO] 
+[21/89] Decompiling: gdb_8537811b64064d1d
+2025-10-28 15:46:16 [ERROR] Failed to decompile gdb_8537811b64064d1d (code 1)
+2025-10-28 15:46:16 [INFO] 
+[22/89] Decompiling: godminer_0c521bcfe6a7d404
+2025-10-28 15:46:32 [ERROR] Failed to decompile godminer_0c521bcfe6a7d404 (code 1)
+2025-10-28 15:46:32 [INFO] 
+[23/89] Decompiling: godminer_1128cadd0a39771b
+2025-10-28 15:46:45 [ERROR] Failed to decompile godminer_1128cadd0a39771b (code 1)
+2025-10-28 15:46:45 [INFO] 
+[24/89] Decompiling: godminer_19e50258256eba42
+2025-10-28 15:46:46 [ERROR] Failed to decompile godminer_19e50258256eba42 (code 1)
+2025-10-28 15:46:46 [INFO] 
+[25/89] Decompiling: godminer_2a9dde2165f7cc3d
+2025-10-28 15:47:01 [ERROR] Failed to decompile godminer_2a9dde2165f7cc3d (code 1)
+2025-10-28 15:47:01 [INFO] 
+[26/89] Decompiling: godminer_5456fe6cf112ef43
+2025-10-28 15:47:15 [ERROR] Failed to decompile godminer_5456fe6cf112ef43 (code 1)
+2025-10-28 15:47:15 [INFO] 
+[27/89] Decompiling: godminer_55262358482818c8
+2025-10-28 15:47:16 [ERROR] Failed to decompile godminer_55262358482818c8 (code 1)
+2025-10-28 15:47:16 [INFO] 
+[28/89] Decompiling: godminer_6b55f17a132f3211
+2025-10-28 15:47:30 [ERROR] Failed to decompile godminer_6b55f17a132f3211 (code 1)
+2025-10-28 15:47:30 [INFO] 
+[29/89] Decompiling: godminer_84ac472868d7366a
+2025-10-28 15:47:44 [ERROR] Failed to decompile godminer_84ac472868d7366a (code 1)
+2025-10-28 15:47:44 [INFO] 
+[30/89] Decompiling: godminer_c22473ca6f7d4be7
+2025-10-28 15:47:44 [ERROR] Failed to decompile godminer_c22473ca6f7d4be7 (code 1)
+2025-10-28 15:47:44 [INFO] 
+[31/89] Decompiling: godminer_cd011c85bed64d04
+2025-10-28 15:47:59 [ERROR] Failed to decompile godminer_cd011c85bed64d04 (code 1)
+2025-10-28 15:47:59 [INFO] 
+[32/89] Decompiling: godminer_f67038ae95f2bb91
+2025-10-28 15:47:59 [ERROR] Failed to decompile godminer_f67038ae95f2bb91 (code 1)
+2025-10-28 15:47:59 [INFO] 
+[33/89] Decompiling: i2cget_233750fe9f807c98
+2025-10-28 15:47:59 [ERROR] Failed to decompile i2cget_233750fe9f807c98 (code 1)
+2025-10-28 15:47:59 [INFO] 
+[34/89] Decompiling: i2cset_5319824f85e7f7b5
+2025-10-28 15:48:00 [ERROR] Failed to decompile i2cset_5319824f85e7f7b5 (code 1)
+2025-10-28 15:48:00 [INFO] 
+[35/89] Decompiling: i2ctransfer_73cc8c86684af457
+2025-10-28 15:48:00 [ERROR] Failed to decompile i2ctransfer_73cc8c86684af457 (code 1)
+2025-10-28 15:48:00 [INFO] 
+[36/89] Decompiling: id2mac_85efd51c528f1f85
+2025-10-28 15:48:01 [ERROR] Failed to decompile id2mac_85efd51c528f1f85 (code 1)
+2025-10-28 15:48:01 [INFO] 
+[37/89] Decompiling: id2mac_c0af885f84ce73da
+2025-10-28 15:48:01 [ERROR] Failed to decompile id2mac_c0af885f84ce73da (code 1)
+2025-10-28 15:48:01 [INFO] 
+[38/89] Decompiling: id2mac_fff86b65c0bf5a28
+2025-10-28 15:48:02 [ERROR] Failed to decompile id2mac_fff86b65c0bf5a28 (code 1)
+2025-10-28 15:48:02 [INFO] 
+[39/89] Decompiling: lzotest_884814d3b09a24fc
+2025-10-28 15:48:03 [ERROR] Failed to decompile lzotest_884814d3b09a24fc (code 1)
+2025-10-28 15:48:03 [INFO] 
+[40/89] Decompiling: lzotest_9c21fc69afefc2d9
+2025-10-28 15:48:04 [ERROR] Failed to decompile lzotest_9c21fc69afefc2d9 (code 1)
+2025-10-28 15:48:04 [INFO] 
+[41/89] Decompiling: lzotest_da94474f3d1770d3
+2025-10-28 15:48:05 [ERROR] Failed to decompile lzotest_da94474f3d1770d3 (code 1)
+2025-10-28 15:48:05 [INFO] 
+[42/89] Decompiling: monitor-ipsig_09830da6aaed8072
+2025-10-28 15:48:05 [ERROR] Failed to decompile monitor-ipsig_09830da6aaed8072 (code 1)
+2025-10-28 15:48:05 [INFO] 
+[43/89] Decompiling: monitor-ipsig_19538ce298bb711a
+2025-10-28 15:48:06 [ERROR] Failed to decompile monitor-ipsig_19538ce298bb711a (code 1)
+2025-10-28 15:48:06 [INFO] 
+[44/89] Decompiling: monitor-ipsig_2a1773a87ca57e13
+2025-10-28 15:48:06 [ERROR] Failed to decompile monitor-ipsig_2a1773a87ca57e13 (code 1)
+2025-10-28 15:48:06 [INFO] 
+[45/89] Decompiling: monitor-ipsig_2cedd09c0af4af35
+2025-10-28 15:48:07 [ERROR] Failed to decompile monitor-ipsig_2cedd09c0af4af35 (code 1)
+2025-10-28 15:48:07 [INFO] 
+[46/89] Decompiling: monitor-ipsig_37fd0a5731caffaf
+2025-10-28 15:48:07 [ERROR] Failed to decompile monitor-ipsig_37fd0a5731caffaf (code 1)
+2025-10-28 15:48:07 [INFO] 
+[47/89] Decompiling: monitor-ipsig_497d1c899aff5f45
+2025-10-28 15:48:08 [ERROR] Failed to decompile monitor-ipsig_497d1c899aff5f45 (code 1)
+2025-10-28 15:48:08 [INFO] 
+[48/89] Decompiling: monitor-ipsig_adf09c0d221ea180
+2025-10-28 15:48:08 [ERROR] Failed to decompile monitor-ipsig_adf09c0d221ea180 (code 1)
+2025-10-28 15:48:08 [INFO] 
+[49/89] Decompiling: monitor-ipsig_b6e51047205e3ef8
+2025-10-28 15:48:08 [ERROR] Failed to decompile monitor-ipsig_b6e51047205e3ef8 (code 1)
+2025-10-28 15:48:08 [INFO] 
+[50/89] Decompiling: monitor-ipsig_cb4f222b7765398d
+2025-10-28 15:48:09 [ERROR] Failed to decompile monitor-ipsig_cb4f222b7765398d (code 1)
+2025-10-28 15:48:09 [INFO] 
+[51/89] Decompiling: monitor-ipsig_d528bcda11b58255
+2025-10-28 15:48:09 [ERROR] Failed to decompile monitor-ipsig_d528bcda11b58255 (code 1)
+2025-10-28 15:48:09 [INFO] 
+[52/89] Decompiling: monitor-ipsig_de82e7f250bbc3e7
+2025-10-28 15:48:10 [ERROR] Failed to decompile monitor-ipsig_de82e7f250bbc3e7 (code 1)
+2025-10-28 15:48:10 [INFO] 
+[53/89] Decompiling: monitor-recobtn_298dcdda1a5b4d5b
+2025-10-28 15:48:10 [ERROR] Failed to decompile monitor-recobtn_298dcdda1a5b4d5b (code 1)
+2025-10-28 15:48:10 [INFO] 
+[54/89] Decompiling: monitor-recobtn_33b5b0a3a0d69b1a
+2025-10-28 15:48:11 [ERROR] Failed to decompile monitor-recobtn_33b5b0a3a0d69b1a (code 1)
+2025-10-28 15:48:11 [INFO] 
+[55/89] Decompiling: monitor-recobtn_3d7768602f5c9119
+2025-10-28 15:48:11 [ERROR] Failed to decompile monitor-recobtn_3d7768602f5c9119 (code 1)
+2025-10-28 15:48:11 [INFO] 
+[56/89] Decompiling: monitor-recobtn_564dc2a3f05c6f1e
+2025-10-28 15:48:11 [ERROR] Failed to decompile monitor-recobtn_564dc2a3f05c6f1e (code 1)
+2025-10-28 15:48:11 [INFO] 
+[57/89] Decompiling: monitor-recobtn_7b27cfc14f6ec46f
+2025-10-28 15:48:12 [ERROR] Failed to decompile monitor-recobtn_7b27cfc14f6ec46f (code 1)
+2025-10-28 15:48:12 [INFO] 
+[58/89] Decompiling: monitor-recobtn_9b71652555b59b38
+2025-10-28 15:48:12 [ERROR] Failed to decompile monitor-recobtn_9b71652555b59b38 (code 1)
+2025-10-28 15:48:12 [INFO] 
+[59/89] Decompiling: monitor-recobtn_aff43e9b5b79da75
+2025-10-28 15:48:13 [ERROR] Failed to decompile monitor-recobtn_aff43e9b5b79da75 (code 1)
+2025-10-28 15:48:13 [INFO] 
+[60/89] Decompiling: monitor-recobtn_d74abb525877cd25
+2025-10-28 15:48:13 [ERROR] Failed to decompile monitor-recobtn_d74abb525877cd25 (code 1)
+2025-10-28 15:48:13 [INFO] 
+[61/89] Decompiling: monitor-recobtn_d85e001060febdd5
+2025-10-28 15:48:13 [ERROR] Failed to decompile monitor-recobtn_d85e001060febdd5 (code 1)
+2025-10-28 15:48:13 [INFO] 
+[62/89] Decompiling: monitor-recobtn_d884944b1a259885
+2025-10-28 15:48:14 [ERROR] Failed to decompile monitor-recobtn_d884944b1a259885 (code 1)
+2025-10-28 15:48:14 [INFO] 
+[63/89] Decompiling: monitor-recobtn_dc10a78bf5d7fba7
+2025-10-28 15:48:14 [ERROR] Failed to decompile monitor-recobtn_dc10a78bf5d7fba7 (code 1)
+2025-10-28 15:48:14 [INFO] 
+[64/89] Decompiling: ntpd_056d0b1bb2b95313
+2025-10-28 15:48:20 [ERROR] Failed to decompile ntpd_056d0b1bb2b95313 (code 1)
+2025-10-28 15:48:20 [INFO] 
+[65/89] Decompiling: ntpd_233b2c492458aaf2
+2025-10-28 15:48:26 [ERROR] Failed to decompile ntpd_233b2c492458aaf2 (code 1)
+2025-10-28 15:48:26 [INFO] 
+[66/89] Decompiling: ntpd_2b5015ea8b138fad
+2025-10-28 15:48:33 [ERROR] Failed to decompile ntpd_2b5015ea8b138fad (code 1)
+2025-10-28 15:48:33 [INFO] 
+[67/89] Decompiling: ntpd_43eb7f4fc522c3d7
+2025-10-28 15:48:39 [ERROR] Failed to decompile ntpd_43eb7f4fc522c3d7 (code 1)
+2025-10-28 15:48:39 [INFO] 
+[68/89] Decompiling: ntpd_5c6c789e8f4fd642
+2025-10-28 15:48:45 [ERROR] Failed to decompile ntpd_5c6c789e8f4fd642 (code 1)
+2025-10-28 15:48:45 [INFO] 
+[69/89] Decompiling: ntpd_8b49cdeb25f53d15
+2025-10-28 15:48:51 [ERROR] Failed to decompile ntpd_8b49cdeb25f53d15 (code 1)
+2025-10-28 15:48:51 [INFO] 
+[70/89] Decompiling: ntpd_96e4ddc793e687d7
+2025-10-28 15:48:57 [ERROR] Failed to decompile ntpd_96e4ddc793e687d7 (code 1)
+2025-10-28 15:48:57 [INFO] 
+[71/89] Decompiling: ntpd_bca9d2dec5dab435
+2025-10-28 15:49:03 [ERROR] Failed to decompile ntpd_bca9d2dec5dab435 (code 1)
+2025-10-28 15:49:03 [INFO] 
+[72/89] Decompiling: ntpd_cab23e17f1fa7529
+2025-10-28 15:49:10 [ERROR] Failed to decompile ntpd_cab23e17f1fa7529 (code 1)
+2025-10-28 15:49:10 [INFO] 
+[73/89] Decompiling: ntpd_df8d9d08493442b0
+2025-10-28 15:49:16 [ERROR] Failed to decompile ntpd_df8d9d08493442b0 (code 1)
+2025-10-28 15:49:16 [INFO] 
+[74/89] Decompiling: ntpd_e7edf2c125091746
+2025-10-28 15:49:22 [ERROR] Failed to decompile ntpd_e7edf2c125091746 (code 1)
+2025-10-28 15:49:22 [INFO] 
+[75/89] Decompiling: ntpdate_2170d6c452e05021
+2025-10-28 15:49:23 [ERROR] Failed to decompile ntpdate_2170d6c452e05021 (code 1)
+2025-10-28 15:49:23 [INFO] 
+[76/89] Decompiling: ntpdate_42af6d0c71472e3c
+2025-10-28 15:49:25 [ERROR] Failed to decompile ntpdate_42af6d0c71472e3c (code 1)
+2025-10-28 15:49:25 [INFO] 
+[77/89] Decompiling: ntpdate_5345ad471e8ecaa9
+2025-10-28 15:49:27 [ERROR] Failed to decompile ntpdate_5345ad471e8ecaa9 (code 1)
+2025-10-28 15:49:27 [INFO] 
+[78/89] Decompiling: ntpdate_77568d0526fe931c
+2025-10-28 15:49:28 [ERROR] Failed to decompile ntpdate_77568d0526fe931c (code 1)
+2025-10-28 15:49:28 [INFO] 
+[79/89] Decompiling: ntpdate_840e25864e22ddc3
+2025-10-28 15:49:30 [ERROR] Failed to decompile ntpdate_840e25864e22ddc3 (code 1)
+2025-10-28 15:49:30 [INFO] 
+[80/89] Decompiling: ntpdate_971f5454b3ff9277
+2025-10-28 15:49:31 [ERROR] Failed to decompile ntpdate_971f5454b3ff9277 (code 1)
+2025-10-28 15:49:31 [INFO] 
+[81/89] Decompiling: ntpdate_c5eb6f5b79deb0b7
+2025-10-28 15:49:33 [ERROR] Failed to decompile ntpdate_c5eb6f5b79deb0b7 (code 1)
+2025-10-28 15:49:33 [INFO] 
+[82/89] Decompiling: ntpdate_cd2d1cbdc2c2e2b4
+2025-10-28 15:49:34 [ERROR] Failed to decompile ntpdate_cd2d1cbdc2c2e2b4 (code 1)
+2025-10-28 15:49:34 [INFO] 
+[83/89] Decompiling: ntpdate_cfcc497d88d1cdba
+2025-10-28 15:49:36 [ERROR] Failed to decompile ntpdate_cfcc497d88d1cdba (code 1)
+2025-10-28 15:49:36 [INFO] 
+[84/89] Decompiling: ntpdate_dda1e09c705ff52c
+2025-10-28 15:49:37 [ERROR] Failed to decompile ntpdate_dda1e09c705ff52c (code 1)
+2025-10-28 15:49:37 [INFO] 
+[85/89] Decompiling: ntpdate_ef71ed9dc8da0c96
+2025-10-28 15:49:39 [ERROR] Failed to decompile ntpdate_ef71ed9dc8da0c96 (code 1)
+2025-10-28 15:49:39 [INFO] 
+[86/89] Decompiling: update-daemon_7fa331fcf0e57f3c
+2025-10-28 15:49:39 [ERROR] Failed to decompile update-daemon_7fa331fcf0e57f3c (code 1)
+2025-10-28 15:49:39 [INFO] 
+[87/89] Decompiling: update-daemon_941cf5e62a767811
+2025-10-28 15:49:40 [ERROR] Failed to decompile update-daemon_941cf5e62a767811 (code 1)
+2025-10-28 15:49:40 [INFO] 
+[88/89] Decompiling: update-daemon_da6afc673ba1b9e4
+2025-10-28 15:49:40 [ERROR] Failed to decompile update-daemon_da6afc673ba1b9e4 (code 1)
+2025-10-28 15:49:40 [INFO] 
+[89/89] Decompiling: update-daemon_fad88ac64899435a
+2025-10-28 15:49:40 [ERROR] Failed to decompile update-daemon_fad88ac64899435a (code 1)
+2025-10-28 15:49:40 [INFO] ============================================================
+2025-10-28 15:49:40 [INFO] SUMMARY
+2025-10-28 15:49:40 [INFO] ============================================================
+2025-10-28 15:49:40 [INFO] Total found:     89
+2025-10-28 15:49:40 [INFO] Successfully:    0
+2025-10-28 15:49:40 [INFO] Failed:          89
+2025-10-28 15:49:40 [INFO] Skipped:         0
+2025-10-28 15:49:40 [INFO] Output:          _binaries
+2025-10-28 15:49:40 [INFO] Log:             _decompile_idapro.log
+2025-10-28 15:49:40 [INFO] Completed:       2025-10-28T15:49:40.897165
+2025-10-28 15:49:40 [INFO] ============================================================
+=============
+Processing: godminer_2a9dde2165f7cc3d
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `godminer_2a9dde2165f7cc3d`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `godminer_2a9dde2165f7cc3d.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: godminer_5456fe6cf112ef43
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `godminer_5456fe6cf112ef43`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `godminer_5456fe6cf112ef43.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: godminer_55262358482818c8
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `godminer_55262358482818c8`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `godminer_55262358482818c8.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: godminer_6b55f17a132f3211
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `godminer_6b55f17a132f3211`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `godminer_6b55f17a132f3211.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: godminer_84ac472868d7366a
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `godminer_84ac472868d7366a`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `godminer_84ac472868d7366a.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: godminer_c22473ca6f7d4be7
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `godminer_c22473ca6f7d4be7`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `godminer_c22473ca6f7d4be7.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: godminer_cd011c85bed64d04
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `godminer_cd011c85bed64d04`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `godminer_cd011c85bed64d04.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: godminer_f67038ae95f2bb91
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `godminer_f67038ae95f2bb91`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `godminer_f67038ae95f2bb91.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: i2cget_233750fe9f807c98
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `i2cget_233750fe9f807c98`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `i2cget_233750fe9f807c98.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: i2cset_5319824f85e7f7b5
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `i2cset_5319824f85e7f7b5`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `i2cset_5319824f85e7f7b5.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: i2ctransfer_73cc8c86684af457
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `i2ctransfer_73cc8c86684af457`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `i2ctransfer_73cc8c86684af457.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: id2mac_85efd51c528f1f85
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `id2mac_85efd51c528f1f85`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `id2mac_85efd51c528f1f85.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: id2mac_c0af885f84ce73da
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `id2mac_c0af885f84ce73da`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `id2mac_c0af885f84ce73da.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: id2mac_fff86b65c0bf5a28
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `id2mac_fff86b65c0bf5a28`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `id2mac_fff86b65c0bf5a28.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: lzotest_884814d3b09a24fc
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `lzotest_884814d3b09a24fc`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `lzotest_884814d3b09a24fc.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: lzotest_9c21fc69afefc2d9
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `lzotest_9c21fc69afefc2d9`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `lzotest_9c21fc69afefc2d9.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: lzotest_da94474f3d1770d3
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `lzotest_da94474f3d1770d3`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `lzotest_da94474f3d1770d3.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-ipsig_09830da6aaed8072
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-ipsig_09830da6aaed8072`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-ipsig_09830da6aaed8072.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-ipsig_19538ce298bb711a
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-ipsig_19538ce298bb711a`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-ipsig_19538ce298bb711a.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-ipsig_2a1773a87ca57e13
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-ipsig_2a1773a87ca57e13`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-ipsig_2a1773a87ca57e13.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-ipsig_2cedd09c0af4af35
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-ipsig_2cedd09c0af4af35`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-ipsig_2cedd09c0af4af35.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-ipsig_37fd0a5731caffaf
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-ipsig_37fd0a5731caffaf`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-ipsig_37fd0a5731caffaf.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-ipsig_497d1c899aff5f45
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-ipsig_497d1c899aff5f45`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-ipsig_497d1c899aff5f45.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-ipsig_adf09c0d221ea180
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-ipsig_adf09c0d221ea180`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-ipsig_adf09c0d221ea180.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-ipsig_b6e51047205e3ef8
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-ipsig_b6e51047205e3ef8`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-ipsig_b6e51047205e3ef8.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-ipsig_cb4f222b7765398d
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-ipsig_cb4f222b7765398d`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-ipsig_cb4f222b7765398d.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-ipsig_d528bcda11b58255
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-ipsig_d528bcda11b58255`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-ipsig_d528bcda11b58255.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-ipsig_de82e7f250bbc3e7
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-ipsig_de82e7f250bbc3e7`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-ipsig_de82e7f250bbc3e7.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-recobtn_298dcdda1a5b4d5b
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-recobtn_298dcdda1a5b4d5b`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-recobtn_298dcdda1a5b4d5b.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-recobtn_33b5b0a3a0d69b1a
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-recobtn_33b5b0a3a0d69b1a`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-recobtn_33b5b0a3a0d69b1a.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-recobtn_3d7768602f5c9119
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-recobtn_3d7768602f5c9119`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-recobtn_3d7768602f5c9119.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-recobtn_564dc2a3f05c6f1e
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-recobtn_564dc2a3f05c6f1e`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-recobtn_564dc2a3f05c6f1e.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-recobtn_7b27cfc14f6ec46f
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-recobtn_7b27cfc14f6ec46f`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-recobtn_7b27cfc14f6ec46f.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-recobtn_9b71652555b59b38
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-recobtn_9b71652555b59b38`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-recobtn_9b71652555b59b38.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-recobtn_aff43e9b5b79da75
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-recobtn_aff43e9b5b79da75`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-recobtn_aff43e9b5b79da75.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-recobtn_d74abb525877cd25
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-recobtn_d74abb525877cd25`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-recobtn_d74abb525877cd25.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-recobtn_d85e001060febdd5
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-recobtn_d85e001060febdd5`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-recobtn_d85e001060febdd5.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-recobtn_d884944b1a259885
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-recobtn_d884944b1a259885`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-recobtn_d884944b1a259885.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: monitor-recobtn_dc10a78bf5d7fba7
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `monitor-recobtn_dc10a78bf5d7fba7`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `monitor-recobtn_dc10a78bf5d7fba7.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpd_056d0b1bb2b95313
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpd_056d0b1bb2b95313`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpd_056d0b1bb2b95313.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpd_233b2c492458aaf2
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpd_233b2c492458aaf2`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpd_233b2c492458aaf2.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpd_2b5015ea8b138fad
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpd_2b5015ea8b138fad`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpd_2b5015ea8b138fad.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpd_43eb7f4fc522c3d7
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpd_43eb7f4fc522c3d7`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpd_43eb7f4fc522c3d7.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpd_5c6c789e8f4fd642
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpd_5c6c789e8f4fd642`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpd_5c6c789e8f4fd642.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpd_8b49cdeb25f53d15
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpd_8b49cdeb25f53d15`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpd_8b49cdeb25f53d15.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpd_96e4ddc793e687d7
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpd_96e4ddc793e687d7`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpd_96e4ddc793e687d7.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpd_bca9d2dec5dab435
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpd_bca9d2dec5dab435`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpd_bca9d2dec5dab435.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpd_cab23e17f1fa7529
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpd_cab23e17f1fa7529`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpd_cab23e17f1fa7529.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpd_df8d9d08493442b0
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpd_df8d9d08493442b0`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpd_df8d9d08493442b0.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpd_e7edf2c125091746
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpd_e7edf2c125091746`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpd_e7edf2c125091746.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpdate_2170d6c452e05021
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpdate_2170d6c452e05021`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpdate_2170d6c452e05021.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpdate_42af6d0c71472e3c
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpdate_42af6d0c71472e3c`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpdate_42af6d0c71472e3c.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpdate_5345ad471e8ecaa9
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpdate_5345ad471e8ecaa9`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpdate_5345ad471e8ecaa9.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpdate_77568d0526fe931c
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpdate_77568d0526fe931c`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpdate_77568d0526fe931c.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpdate_840e25864e22ddc3
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpdate_840e25864e22ddc3`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpdate_840e25864e22ddc3.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpdate_971f5454b3ff9277
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpdate_971f5454b3ff9277`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpdate_971f5454b3ff9277.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpdate_c5eb6f5b79deb0b7
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpdate_c5eb6f5b79deb0b7`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpdate_c5eb6f5b79deb0b7.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpdate_cd2d1cbdc2c2e2b4
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpdate_cd2d1cbdc2c2e2b4`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpdate_cd2d1cbdc2c2e2b4.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpdate_cfcc497d88d1cdba
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpdate_cfcc497d88d1cdba`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpdate_cfcc497d88d1cdba.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpdate_dda1e09c705ff52c
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpdate_dda1e09c705ff52c`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpdate_dda1e09c705ff52c.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: ntpdate_ef71ed9dc8da0c96
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `ntpdate_ef71ed9dc8da0c96`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `ntpdate_ef71ed9dc8da0c96.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: update-daemon_7fa331fcf0e57f3c
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `update-daemon_7fa331fcf0e57f3c`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `update-daemon_7fa331fcf0e57f3c.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: update-daemon_941cf5e62a767811
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `update-daemon_941cf5e62a767811`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `update-daemon_941cf5e62a767811.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: update-daemon_da6afc673ba1b9e4
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `update-daemon_da6afc673ba1b9e4`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `update-daemon_da6afc673ba1b9e4.dec`
+[!] Error: Output directory already exists
+
+Return code: 1
+
+================================================================================
+Processing: update-daemon_fad88ac64899435a
+--------------------------------------------------------------------------------
+haruspex 0.7.3-alpha - Tool to extract IDA decompiler's pseudocode
+Copyright (c) 2024-2025 Marco Ivaldi <raptor@0xdeadbeef.info>
+
+[*] Analyzing binary file `update-daemon_fad88ac64899435a`
+[+] Successfully analyzed binary file
+
+[-] Processor: ARM Little-endian
+[-] Compiler: GNU
+[-] File type: ELF
+
+[*] Preparing output directory `update-daemon_fad88ac64899435a.dec`
+[!] Error: Output directory already exists
+
+Return code: 1

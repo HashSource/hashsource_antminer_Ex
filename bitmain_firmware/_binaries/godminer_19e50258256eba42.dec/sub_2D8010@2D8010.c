@@ -1,0 +1,41 @@
+_DWORD *__fastcall sub_2D8010(_DWORD *result, int a2)
+{
+  result[34] = a2;
+  result[37] = 0;
+  result[36] = result[37];
+  result[35] = result[36];
+  result[38] = a2;
+  result[41] = 0;
+  result[40] = result[41];
+  result[39] = result[40];
+  result[42] = a2;
+  result[45] = 0;
+  result[44] = result[45];
+  result[43] = result[44];
+  result[46] = a2;
+  result[49] = 0;
+  result[48] = result[49];
+  result[47] = result[48];
+  result[50] = a2;
+  result[53] = 0;
+  result[52] = result[53];
+  result[51] = result[52];
+  result[54] = a2;
+  result[57] = 0;
+  result[56] = result[57];
+  result[55] = result[56];
+  result[58] = a2;
+  result[61] = 0;
+  result[60] = result[61];
+  result[59] = result[60];
+  result[62] = a2;
+  result[65] = 0;
+  result[64] = result[65];
+  result[63] = result[64];
+  result[32] = 0;
+  result[69] = 0;
+  result[68] = result[69];
+  result[67] = result[68];
+  result[66] = result[67];
+  return result;
+}

@@ -1,0 +1,9 @@
+int **__fastcall sub_162EAC(int **a1, int a2, int a3)
+{
+  int *v4; // r5
+
+  v4 = (int *)sub_2AC8B4(a2, a3);
+  sub_1627EC(v4);
+  *a1 = v4;
+  return a1;
+}

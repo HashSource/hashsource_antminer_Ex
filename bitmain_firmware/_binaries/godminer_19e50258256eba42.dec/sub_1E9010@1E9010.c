@@ -1,0 +1,8 @@
+int __fastcall sub_1E9010(int a1)
+{
+  int v2; // [sp+8h] [bp-Ch]
+
+  v2 = sub_1E7338(a1, 1, 0, 26806532);
+  usleep((__useconds_t)&stru_186A0);
+  return v2;
+}

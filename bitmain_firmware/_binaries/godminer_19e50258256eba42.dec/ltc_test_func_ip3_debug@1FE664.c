@@ -1,0 +1,42 @@
+int ltc_test_func_ip3_debug()
+{
+  ltc_test_7007_base();
+  fpga_write(4112, 16475);
+  usleep(1u);
+  fpga_write(4112, 0);
+  usleep(0x3E8u);
+  fpga_write(4112, 383);
+  usleep(1u);
+  fpga_write(4112, 65919);
+  usleep(0x3E8u);
+  fpga_write(4112, 0);
+  usleep(0x3E8u);
+  fpga_write(4112, 39171);
+  usleep(1u);
+  fpga_write(4112, 104707);
+  usleep(0x3E8u);
+  fpga_write(4112, 0);
+  usleep(0x3E8u);
+  fpga_write(4112, 43522);
+  usleep(1u);
+  fpga_write(4112, 109058);
+  usleep(0x3E8u);
+  fpga_write(4112, 0);
+  usleep(0x3E8u);
+  fpga_write(4112, 52225);
+  usleep(1u);
+  fpga_write(4112, (int)&stru_1CC00.st_name + 1);
+  usleep(0x3E8u);
+  fpga_write(4112, 0);
+  usleep(0x3E8u);
+  fpga_write(4112, 3840);
+  usleep(1u);
+  fpga_write(4112, (int)&elf_hash_bucket[849]);
+  usleep(0x3E8u);
+  fpga_write(4112, 0);
+  usleep(0x3E8u);
+  fpga_write(4112, 0x100000);
+  usleep(0x3E8u);
+  fpga_write(4112, 0);
+  return 0;
+}

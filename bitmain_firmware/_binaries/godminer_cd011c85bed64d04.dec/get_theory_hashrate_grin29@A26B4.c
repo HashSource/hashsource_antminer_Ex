@@ -1,0 +1,20 @@
+int __fastcall get_theory_hashrate_grin29(int a1, double *a2)
+{
+  int v2; // s14
+  unsigned int v3; // s10
+  __int64 v5; // r2
+
+  if ( *(_BYTE *)(a1 + 276) )
+  {
+    v5 = *(_QWORD *)(a1 + 288);
+    *(_QWORD *)a2 = v5;
+    return 0;
+  }
+  else
+  {
+    v2 = *(_DWORD *)(a1 + 280);
+    v3 = *(_DWORD *)(a1 + 212);
+    *a2 = ((double)v2 + (double)v2) / (double)v3 * 1000.0 * 1000.0;
+    return 0;
+  }
+}
